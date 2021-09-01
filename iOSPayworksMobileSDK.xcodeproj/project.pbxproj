@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F29A0D1B436722728350AC5 /* Pods_iOSPayworksMobileSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B24C7C0BF047C931EB64464 /* Pods_iOSPayworksMobileSDKTests.framework */; };
+		7A639663FDECE91B9CEA265A /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E066E78F921568E13BA5DF7 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */; };
+		D86128426E13B9E45F570210 /* Pods_iOSPayworksMobileSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30339DBAFF1A7FDEED7B18E /* Pods_iOSPayworksMobileSDK.framework */; };
 		E9005EEA26DE67A50081C9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9005EE926DE67A50081C9F6 /* AppDelegate.swift */; };
 		E9005EEC26DE67A50081C9F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9005EEB26DE67A50081C9F6 /* SceneDelegate.swift */; };
 		E9005EEE26DE67A50081C9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9005EED26DE67A50081C9F6 /* ContentView.swift */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E066E78F921568E13BA5DF7 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B01A777003046C3CC2F80B /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77D1F0ED12C9073DDC1192CA /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B24C7C0BF047C931EB64464 /* Pods_iOSPayworksMobileSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayworksMobileSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7E76664EF49D012E0339D4 /* Pods-iOSPayworksMobileSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDK.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A8662F8D6B70286E998828 /* Pods-iOSPayworksMobileSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDK.release.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK.release.xcconfig"; sourceTree = "<group>"; };
+		C3144023E6E53B2E1168AC21 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA1781056417A9C938576C12 /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSPayworksMobileSDKTests.release.xcconfig"; path = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.release.xcconfig"; sourceTree = "<group>"; };
 		E9005EE626DE67A50081C9F6 /* iOSPayworksMobileSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPayworksMobileSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9005EE926DE67A50081C9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9005EEB26DE67A50081C9F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		E9005F0726DE67A80081C9F6 /* iOSPayworksMobileSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSPayworksMobileSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9005F0B26DE67A80081C9F6 /* iOSPayworksMobileSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSPayworksMobileSDKUITests.swift; sourceTree = "<group>"; };
 		E9005F0D26DE67A80081C9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30339DBAFF1A7FDEED7B18E /* Pods_iOSPayworksMobileSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSPayworksMobileSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86128426E13B9E45F570210 /* Pods_iOSPayworksMobileSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F29A0D1B436722728350AC5 /* Pods_iOSPayworksMobileSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A639663FDECE91B9CEA265A /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		375CCC5B2C1DC41A701963FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30339DBAFF1A7FDEED7B18E /* Pods_iOSPayworksMobileSDK.framework */,
+				4E066E78F921568E13BA5DF7 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */,
+				8B24C7C0BF047C931EB64464 /* Pods_iOSPayworksMobileSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDDDFD6F5F2C812282DD7093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A7E76664EF49D012E0339D4 /* Pods-iOSPayworksMobileSDK.debug.xcconfig */,
+				B4A8662F8D6B70286E998828 /* Pods-iOSPayworksMobileSDK.release.xcconfig */,
+				62B01A777003046C3CC2F80B /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */,
+				77D1F0ED12C9073DDC1192CA /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */,
+				C3144023E6E53B2E1168AC21 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */,
+				CA1781056417A9C938576C12 /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9005EDD26DE67A50081C9F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				E9005EFF26DE67A80081C9F6 /* iOSPayworksMobileSDKTests */,
 				E9005F0A26DE67A80081C9F6 /* iOSPayworksMobileSDKUITests */,
 				E9005EE726DE67A50081C9F6 /* Products */,
+				CDDDFD6F5F2C812282DD7093 /* Pods */,
+				375CCC5B2C1DC41A701963FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9005F1026DE67A80081C9F6 /* Build configuration list for PBXNativeTarget "iOSPayworksMobileSDK" */;
 			buildPhases = (
+				EBB9D37AE2B809F21F7C5739 /* [CP] Check Pods Manifest.lock */,
 				E9005EE226DE67A50081C9F6 /* Sources */,
 				E9005EE326DE67A50081C9F6 /* Frameworks */,
 				E9005EE426DE67A50081C9F6 /* Resources */,
+				25951AACBEF6AA9D90E92B65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9005F1326DE67A80081C9F6 /* Build configuration list for PBXNativeTarget "iOSPayworksMobileSDKTests" */;
 			buildPhases = (
+				9B2174AA9312A0F937A06008 /* [CP] Check Pods Manifest.lock */,
 				E9005EF826DE67A80081C9F6 /* Sources */,
 				E9005EF926DE67A80081C9F6 /* Frameworks */,
 				E9005EFA26DE67A80081C9F6 /* Resources */,
@@ -178,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9005F1626DE67A80081C9F6 /* Build configuration list for PBXNativeTarget "iOSPayworksMobileSDKUITests" */;
 			buildPhases = (
+				C8C3910C647A7CC0E339E799 /* [CP] Check Pods Manifest.lock */,
 				E9005F0326DE67A80081C9F6 /* Sources */,
 				E9005F0426DE67A80081C9F6 /* Frameworks */,
 				E9005F0526DE67A80081C9F6 /* Resources */,
+				72E089287EF6EB6D7FA833A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25951AACBEF6AA9D90E92B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E089287EF6EB6D7FA833A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2174AA9312A0F937A06008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayworksMobileSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C3910C647A7CC0E339E799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB9D37AE2B809F21F7C5739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSPayworksMobileSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9005EE226DE67A50081C9F6 /* Sources */ = {
@@ -366,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +581,7 @@
 		};
 		E9005F1126DE67A80081C9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7E76664EF49D012E0339D4 /* Pods-iOSPayworksMobileSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +602,7 @@
 		};
 		E9005F1226DE67A80081C9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A8662F8D6B70286E998828 /* Pods-iOSPayworksMobileSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +623,7 @@
 		};
 		E9005F1426DE67A80081C9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3144023E6E53B2E1168AC21 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +645,7 @@
 		};
 		E9005F1526DE67A80081C9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1781056417A9C938576C12 /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +667,7 @@
 		};
 		E9005F1726DE67A80081C9F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B01A777003046C3CC2F80B /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +687,7 @@
 		};
 		E9005F1826DE67A80081C9F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D1F0ED12C9073DDC1192CA /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

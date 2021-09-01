@@ -1,0 +1,11 @@
+framework module mpos_core {
+  umbrella header "mpos_core.h"
+
+  export *
+  module * { export * }
+}
+
+module mpos_core.Swift {
+    header "mpos_core-Swift.h"
+    requires objc
+}

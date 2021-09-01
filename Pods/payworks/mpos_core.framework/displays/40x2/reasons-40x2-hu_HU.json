@@ -1,0 +1,514 @@
+{
+  "info": {
+    "locale": "hu_HU",
+    "rows": 2,
+    "columns": 40
+  },
+  "localization": {
+    "ABORTED": [
+      "A fizetés megszakadt"
+    ],
+    "ABORTED.REFUND": [
+      "A visszatérítés megszakadt"
+    ],
+    "ABORTED.VERIFICATION": [
+      "Verification aborted"
+    ],
+    "ABORTED.ACTIVATION": [
+      "Activation aborted"
+    ],
+    "ABORTED.BALANCE_INQUIRY": [
+      "Inquiry aborted"
+    ],
+    "ABORTED.CASHOUT": [
+      "Cashout aborted"
+    ],
+    "ABORTED_MERCHANT_ABORTED": [
+      "A fizetés megszakadt"
+    ],
+    "ABORTED_MERCHANT_ABORTED.REFUND": [
+      "A visszatérítés megszakadt"
+    ],
+    "ABORTED_MERCHANT_ABORTED.VERIFICATION": [
+      "Verification aborted"
+    ],
+    "ABORTED_MERCHANT_ABORTED.ACTIVATION": [
+      "Activation aborted"
+    ],
+    "ABORTED_MERCHANT_ABORTED.BALANCE_INQUIRY": [
+      "Inquiry aborted"
+    ],
+    "ABORTED_MERCHANT_ABORTED.CASHOUT": [
+      "Cashout aborted"
+    ],
+    "ABORTED_PIN_ENTRY_TIMED_OUT": [
+      "A fizetés megszakadt"
+    ],
+    "ABORTED_PIN_ENTRY_TIMED_OUT.REFUND": [
+      "A visszatérítés megszakadt"
+    ],
+    "ABORTED_SHOPPER_ABORTED": [
+      "A fizetés megszakadt"
+    ],
+    "ABORTED_SHOPPER_ABORTED.REFUND": [
+      "A visszatérítés megszakadt"
+    ],
+    "ABORTED_SHOPPER_ABORTED.VERIFICATION": [
+      "Verification aborted"
+    ],
+    "ABORTED_SHOPPER_ABORTED.ACTIVATION": [
+      "Activation aborted"
+    ],
+    "ABORTED_SHOPPER_ABORTED.BALANCE_INQUIRY": [
+      "Inquiry aborted"
+    ],
+    "ABORTED_SHOPPER_ABORTED.CASHOUT": [
+      "Cashout aborted"
+    ],
+    "ABORTED_SHOPPER_REMOVED_CARD": [
+      "Megszakítva - a kártya eltávolítva"
+    ],
+    "ABORTED_SHOPPER_REMOVED_CARD.REFUND": [
+      "Megszakítva - a kártya eltávolítva"
+    ],
+    "ABORTED_SHOPPER_REMOVED_CARD.VERIFICATION": [
+      "Megszakítva - a kártya eltávolítva"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT": [
+      "A fizetés megszakadt"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT.REFUND": [
+      "A visszatérítés megszakadt"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT.VERIFICATION": [
+      "Verification aborted"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT.ACTIVATION": [
+      "Activation aborted"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT.BALANCE_INQUIRY": [
+      "Inquiry aborted"
+    ],
+    "ABORTED_PRESENT_CARD_TIMED_OUT.CASHOUT": [
+      "Cashout aborted"
+    ],
+    "ACCEPTED": [
+      "Fizetés elfogadva"
+    ],
+    "ACCEPTED.REFUND": [
+      "Visszatérítés elfogadva"
+    ],
+    "ACCEPTED_WAITING_FOR_SUBMISSION": [
+      "Fizetés elfogadva"
+    ],
+    "ACCEPTED_WAITING_FOR_SUBMISSION.REFUND": [
+      "Visszatérítés elfogadva"
+    ],
+    "APPROVED": [
+      "Fizetés jóváhagyva"
+    ],
+    "APPROVED_PARTIALLY": [
+      "Partially approved amount $amount$"
+    ],
+    "APPROVED#GIFT_CARD": [
+      "Payment approved. Balance $balance$"
+    ],
+    "APPROVED.REFUND": [
+      "Visszatérítés jóváhagyva"
+    ],
+    "APPROVED.REFUND#GIFT_CARD": [
+      "Void approved"
+    ],
+    "APPROVED.VERIFICATION": [
+      "Verification successful"
+    ],
+    "APPROVED.ACTIVATION": [
+      "Activation approved"
+    ],
+    "APPROVED.BALANCE_INQUIRY": [
+      "Balance inquiry approved"
+    ],
+    "APPROVED.CASHOUT": [
+      "Cashout approved"
+    ],
+    "DECLINED": [
+      "Elutasítva"
+    ],
+    "DECLINED.REFUND": [
+      "Visszatérítés elutasítva"
+    ],
+    "DECLINED.VERIFICATION": [
+      "Cannot validate"
+    ],
+    "DECLINED.ACTIVATION": [
+      "Activation Declined"
+    ],
+    "DECLINED.BALANCE_INQUIRY": [
+      "Balance Inquiry Declined"
+    ],
+    "DECLINED_CARD_EXPIRED": [
+      "Elutasítva – Lejárt kártya"
+    ],
+    "DECLINED_CARD_INVALID_PAN": [
+      "Elutasítva – Érvénytelen kártya"
+    ],
+    "DECLINED_CARD_INVALID_SCHEME": [
+      "Elutasítva – A kártya nem engedélyezett"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_STOLEN": [
+      "Elutasítva – Lopott kártya vegye el"
+    ],
+    "DECLINED_CARD_USE_ORIGINAL": [
+      "Elutasítva – Használja eredeti kártyáját"
+    ],
+    "DECLINED_INVALID_TERMINAL": [
+      "A fizetés nem lehetséges"
+    ],
+    "DECLINED_INVALID_TERMINAL_CONFIG": [
+      "A fizetés nem lehetséges"
+    ],
+    "DECLINED_INVALID_TERMINAL_SOFTWARE": [
+      "A fizetés nem lehetséges"
+    ],
+    "DECLINED_PIN_WRONG": [
+      "Elutasítva – Helytelen PIN-kód"
+    ],
+    "DECLINED_PIN_WRONG_TOO_OFTEN": [
+      "Elutasítva – Helytelen PIN-kód"
+    ],
+    "DECLINED_INVALID_CVN": [
+      "Declined - Wrong code"
+    ],
+    "DECLINED_FRAUD": [
+      "Declined - No card activity permitted"
+    ],
+    "DECLINED_FRAUD.ACTIVATION": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_ALREADY_ACTIVE": [
+      "Declined - Card already active"
+    ],
+    "DECLINED_INVALID_CLERK": [
+      "Declined - Invalid clerk"
+    ],
+    "DECLINED_RELOAD_LIMIT_EXCEEDED": [
+      "Declined - Exceeded account reloads"
+    ],
+    "DECLINED_PROCESSOR": [
+      "Elutasítva"
+    ],
+    "DECLINED_PROCESSOR_EXCEEDS_WITHDRAWAL_COUNT_LIMIT": [
+      "Elutasítva"
+    ],
+    "DECLINED_PROCESSOR_PIN_ENTRY_NECESSARY": [
+      "Elutasítva"
+    ],
+    "DECLINED_PROCESSOR_REQUEST_CUSTOMER_DEVICE_AUTHORIZATION_WITH_CVM_LIMIT_ZERO": [
+      "Elutasítva"
+    ],
+    "DECLINED_PROCESSOR_UNCAPTURED_CHARGES_NOT_SUPPORTED": [
+      "Elutasítva"
+    ],
+    "DECLINED_SESSION_EXPIRED": [
+      "A fizetés nem lehetséges"
+    ],
+    "DECLINED_PROCESSOR_INCONSISTENT_STATE": [
+      "Elutasítva"
+    ],
+    "DECLINED_MALFORMED_REQUEST": [
+      "Elutasítva"
+    ],
+    "DECLINED_MANIPULATION_SUSPECTED": [
+      "Elutasítva – Manipulálhatták"
+    ],
+    "DECLINED_CARD_BLOCKED": [
+      "Elutasítva – A kártya nem engedélyezett"
+    ],
+    "DECLINED_INSUFFICIENT_FUNDS": [
+      "Elutasítva – Fedezethiány"
+    ],
+    "DECLINED_TRANSACTION_FREQUENCY_EXCEEDED": [
+      "Elutasítva – Túl sok fizetés"
+    ],
+    "DECLINED_CARD_LOST": [
+      "Elutasítva – Elvesztett kártya"
+    ],
+    "DECLINED_INVALID_SCHEME": [
+      "Elutasítva – A kártya nem engedélyezett"
+    ],
+    "DECLINED_INVALID_AMOUNT": [
+      "Elutasítva – Az összeg nem engedélyezett"
+    ],
+    "DECLINED_INVALID_CURRENCY": [
+      "Declined - Invalid currency"
+    ],
+    "DECLINED_INVALID_CONFIGURATION": [
+      "Elutasítva – Helytelen beállítás"
+    ],
+    "DECLINED_INVALID_PAYMENT_CODE": [
+      "Elutasítva – Érvénytelen fizetési kód"
+    ],
+    "DECLINED_DUPLICATE_TRANSACTION": [
+      "Elutasítva – Tranzakció folyamatban"
+    ],
+    "DECLINED_INVALID_WORKFLOW": [
+      "Elutasítva"
+    ],
+    "DECLINED_PARTIAL_APPROVAL_OR_VERBAL_AUTHORIZATION_REQUIRED": [
+      "Elutasítva"
+    ],
+    "DECLINED_PARTIAL_APPROVAL_OR_VERBAL_AUTHORIZATION_REQUIRED.REFUND": [
+      "Visszatérítés elutasítva"
+    ],
+    "DECLINED_PROCESSOR_CARD_EXPIRED": [
+      "Elutasítva – Lejárt kártya"
+    ],
+    "DECLINED_PROCESSOR_REFUND_NOT_POSSIBLE": [
+      "Elutasítva – Visszatérít. nem lehetséges"
+    ],
+    "DECLINED_PROCESSOR_TEMPORARILY_BLACKLISTED": [
+      "Elutasítva – Túl sok próbálkozás"
+    ],
+    "DECLINED_AMOUNT_EXCEEDS_LIMIT": [
+      "Elutasítva – Határérték feletti összeg"
+    ],
+    "DECLINED_MERCHANT_REJECTED": [
+      "Declined - Merchant rejected"
+    ],
+    "DECLINED_VERIFICATION_FAILED": [
+      "Declined",
+      "$reason$"
+    ],
+    "DECLINED_INACTIVE_PROCESSING_PATH": [
+      "Declined - Inactive processing path"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED_1ST_GEN_AC": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED_1ST_GEN_AC.REFUND": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED_2ND_GEN_AC": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED_2ND_GEN_AC.REFUND": [
+      "Elutasítva"
+    ],
+    "DECLINED_FORBIDDEN_CARD_CAPTURE_CARD": [
+      "Elutasítva - Tilos, rögzítő kártya"
+    ],
+    "DECLINED_AUTHORIZATION_PROCESSOR_MALFUNCTION": [
+      "Elutasítva - Sikertelen engedélyezés"
+    ],
+    "DECLINED_AUTHORIZATION_PROCESSOR_TIMEOUT": [
+      "Elutasítva - Sikertelen engedélyezés"
+    ],
+    "DECLINED_CARD_MAGSTRIPE_SERVICE_CODE_RISK_CHECK_FAILED": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_MAGSTRIPE_SERVICE_CODE_RISK_CHECK_FAILED.REFUND": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_MAGSTRIPE_SERVICE_CODE_RISK_CHECK_FAILED_USE_CHIP": [
+      "Declined - Use Chip Reader"
+    ],
+    "DECLINED_CARD_MAGSTRIPE_SERVICE_CODE_RISK_CHECK_FAILED_USE_CHIP.REFUND": [
+      "Declined - Use Chip Reader"
+    ],
+    "DECLINED_FORBIDDEN_APPLICATION": [
+      "Elutasítva – Érvénytelen kártya"
+    ],
+    "DECLINED_CARD_INVALID_START_DATE_MAGSTRIPE": [
+      "Elutasítva – Érvénytelen kártya"
+    ],
+    "DECLINED_CARD_INVALID_START_DATE_ICC": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_INVALID_START_DATE_ICC.REFUND": [
+      "Elutasítva"
+    ],
+    "DECLINED_CARD_OR_TERMINAL_DECLINED_1ST_GEN_AC_EXPIRED_APPLICATION": [
+      "Elutasítva – Lejárt kártya"
+    ],
+    "ERROR": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_APPROVED_OFFLINE": [
+      "Hiba (Terminal approval)"
+    ],
+    "ERROR_TRANSACTION_UNABLE_TO_PERSIST": [
+      "Hiba (Storage)"
+    ],
+    "ERROR_TRANSACTION_PENDING_MANUAL_REVIEW": [
+      "Hiba (Review manually)"
+    ],
+    "ERROR_SERVER_INVALID_TRANSACTION_TYPE": [
+      "Hiba (Invalid transaction)"
+    ],
+    "ERROR_SERVER_INVALID_TRANSACTION_STATUS": [
+      "Hiba (Invalid transaction)"
+    ],
+    "ERROR_SERVER_INVALID_TRANSACTION": [
+      "Hiba (Invalid transaction)"
+    ],
+    "ERROR_SERVER_INVALID_REFUND_AMOUNT": [
+      "Hiba (Invalid transaction)"
+    ],
+    "ERROR_SERVER_MALFORMED_REQUEST": [
+      "Hiba (Malformed request)"
+    ],
+    "ERROR_PROCESSOR_MALFORMED_REQUEST": [
+      "Hiba (Malformed request)"
+    ],
+    "ERROR_PROCESSOR_INVALID_FORMAT": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_INVALID_NONCE": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_INVALID_SESSION": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_INVALID_STATUS": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_MISSING_SESSION": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_CONNECTION_ERROR": [
+      "Hiba (Connection error)"
+    ],
+    "ERROR_SESSION_TIMEOUT": [
+      "Hiba (Session timeout)"
+    ],
+    "ERROR_TERMINAL_ERROR": [
+      "Hiba (Terminal error)"
+    ],
+    "ERROR_TERMINAL_BATTERY_LOW": [
+      "Hiba (Töltse fel az akkumulátort)"
+    ],
+    "ERROR_SERVER_INVALID_RESPONSE": [
+      "Hiba (Invalid response)"
+    ],
+    "ERROR_SERVER_UNAVAILABLE": [
+      "Hiba (Server unavailable)"
+    ],
+    "ERROR_SERVER_TIMEOUT": [
+      "Hiba (Server timeout)"
+    ],
+    "ERROR_SERVER_AUTHENTICATION_FAILED": [
+      "Hiba (Authenticaton failed)"
+    ],
+    "ERROR_SERVER_PINNING_FAILED": [
+      "Hiba (Pinning failed)"
+    ],
+    "ERROR_SERVER_ACCESSORY_DEACTIVATED": [
+      "Hiba (Terminal deactivated)"
+    ],
+    "ERROR_SERVER_ACCESSORY_NOT_ASSIGNED_TO_MERCHANT": [
+      "Hiba (Terminal not assigned)"
+    ],
+    "ERROR_TERMINAL_TIMEOUT": [
+      "Hiba (Terminal timeout)"
+    ],
+    "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_UNRESOLVED": [
+      "Hiba (Inconsistent state)"
+    ],
+    "ERROR_PROCESSOR_FAILED_INCONSISTENT_STATE_RESOLVED": [
+      "Hiba (Inconsistent state)"
+    ],
+    "ERROR_PROCESSOR_PAYMENT_DETAILS_EXTRACTION_FAILED": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_INVALID_PAYMENT_DETAILS": [
+      "Hiba (Invalid data)"
+    ],
+    "ERROR_PROCESSOR_INVALID_CONFIGURATION": [
+      "Hiba (Invalid configuration)"
+    ],
+    "ERROR_PROCESSOR_TRANSACTION_ALREADY_IN_PROGRESS": [
+      "Hiba (Transaction ongoing)"
+    ],
+    "ERROR_PROCESSOR_CONNECTION_NO_RESPONSE": [
+      "Hiba (No response)"
+    ],
+    "ERROR_CARD_INVALID_CARD": [
+      "Hiba - Érvénytelen kártya"
+    ],
+    "ERROR_AVS_UNAVAILABLE": [
+      "Hiba - AVS nem érhető el"
+    ],
+    "ERROR_SDK_INTERNAL_ERROR": [
+      "Error (Internal)"
+    ],
+    "ERROR_CARD_UNSUPPORTED_CARD": [
+      "Hiba - Nem támogatott kártya"
+    ],
+    "NONE": [
+      ""
+    ],
+    "PENDING": [
+      "Fizetés feldolgozása..."
+    ],
+    "PENDING.REFUND": [
+      "Visszatérítés feldolgozása..."
+    ],
+    "PENDING.VERIFICATION": [
+      "Processing verification..."
+    ],
+    "PENDING_WAITING_FOR_FINALIZATION": [
+      "Fizetés feldolgozása..."
+    ],
+    "PENDING_WAITING_FOR_FINALIZATION.REFUND": [
+      "Visszatérítés feldolgozása..."
+    ],
+    "PENDING_WAITING_FOR_FINALIZATION.VERIFICATION": [
+      "Processing verification..."
+    ],
+    "PENDING_WAITING_FOR_EXECUTION": [
+      "Fizetés feldolgozása..."
+    ],
+    "PENDING_WAITING_FOR_EXECUTION.REFUND": [
+      "Visszatérítés feldolgozása..."
+    ],
+    "PENDING_WAITING_FOR_EXECUTION.VERIFICATION": [
+      "Processing verification..."
+    ],
+    "PENDING_RETRYING_DUE_TO_DECLINE": [
+      "Pending retrying..."
+    ],
+    "PENDING_RETRYING_DUE_TO_PROCESSING_ERROR": [
+      "Pending retrying..."
+    ],
+    "PENDING_MANUAL_REVIEW_REQUIRED": [
+      "Manual review required..."
+    ],
+    "ERROR_AUTOREVERSAL_INCONCLUSIVE": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_AUTOREVERSAL_LOGOUT": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_AUTOREVERSAL_ERROR": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_AUTOREVERSAL_APPLIED": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_AUTOREVERSAL_DECLINED": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_AUTOREVERSAL_CONNECTOR_ERROR": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_ACCOUNT_VERIFICATION_NOT_SUPPORTED_BY_CARD": [
+      "Feldolgozási hiba"
+    ],
+    "ERROR_PROCESSOR": [
+      "Feldolgozási hiba"
+    ]
+  }
+}

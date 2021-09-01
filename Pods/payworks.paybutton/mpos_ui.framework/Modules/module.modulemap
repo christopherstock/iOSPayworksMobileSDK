@@ -1,0 +1,11 @@
+framework module mpos_ui {
+  umbrella header "mpos_ui.h"
+
+  export *
+  module * { export * }
+}
+
+module mpos_ui.Swift {
+    header "mpos_ui-Swift.h"
+    requires objc
+}

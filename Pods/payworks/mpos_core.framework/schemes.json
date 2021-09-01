@@ -1,0 +1,571 @@
+{
+  "AMERICAN_EXPRESS": {
+    "aids": [
+      "A00000002501"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          340000,
+          349999
+        ],
+        [
+          370000,
+          379999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "American Express"
+  },
+  "UNION_PAY": {
+    "aids": [
+      "A000000333010101",
+      "A000000333010102",
+      "A000000333010103"
+    ],
+    "bins": {
+      "excluded": [
+        [
+          627355,
+          627355
+        ],
+        [
+          627456,
+          627456
+        ],
+        [
+          627696,
+          627696
+        ],
+        [
+          627767,
+          627767
+        ]
+      ],
+      "included": [
+        [
+          620000,
+          629999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": true,
+    "magstripeAllowPinBypass": true,
+    "magstripeLimitServiceCodeChecks": true,
+    "magstripeCoBrandedBins": [
+        45806,
+        49102,
+        49104,
+        53243,
+        53591,
+        54403,
+        54776,
+        63888,
+        370246,
+        370247,
+        370248,
+        370249,
+        370267,
+        370285,
+        370286,
+        370287,
+        370289,
+        374738,
+        374739,
+        376966,
+        376968,
+        377152,
+        377153,
+        377155,
+        377158,
+        377187,
+        377677,
+        400360,
+        404119,
+        404120,
+        405512,
+        409669,
+        412962,
+        415599,
+        433666,
+        433667,
+        435745,
+        436728,
+        436742,
+        451804,
+        451810,
+        451811,
+        453242,
+        456351,
+        458071,
+        489736,
+        491031,
+        491032,
+        491035,
+        491037,
+        491038,
+        518364,
+        519412,
+        520082,
+        530980,
+        532420,
+        548478,
+        548844,
+        553242,
+        558868,
+        601382,
+        601428,
+        602969,
+        603265,
+        603367,
+        603694,
+        603708,
+        685800,
+        690750,
+        60360100
+    ],
+    "name": "UnionPay"
+  },
+  "UNION_PAY_COMMON_DEBIT": {
+    "aids": [
+      "A000000333010108"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "UnionPay"
+  },
+  "DINERS": {
+    "aids": [
+      "A0000001523010",
+      "A0000003241010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          300000,
+          305999
+        ],
+        [
+          309500,
+          309599
+        ],
+        [
+          360000,
+          369999
+        ],
+        [
+          380000,
+          399999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Diners Club"
+  },
+  "DISCOVER": {
+    "aids": [
+      "A0000001523010",
+      "A0000003241010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          601100,
+          601109
+        ],
+        [
+          601120,
+          601149
+        ],
+        [
+          601174,
+          601174
+        ],
+        [
+          601177,
+          601179
+        ],
+        [
+          601186,
+          601199
+        ],
+        [
+          644000,
+          659999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Discover"
+  },
+  "DISCOVER_COMMON_DEBIT": {
+    "aids": [
+      "A0000001524010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Discover"
+  },
+  "JCB": {
+    "aids": [
+      "A0000000651010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          352800,
+          358999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "JCB"
+  },
+  "MAESTRO": {
+    "aids": [
+      "A0000000043060"
+    ],
+    "bins": {
+      "excluded": [
+        [
+          601100,
+          601109
+        ],
+        [
+          601120,
+          601149
+        ],
+        [
+          601174,
+          601174
+        ],
+        [
+          601177,
+          601179
+        ],
+        [
+          601186,
+          601199
+        ],
+        [
+          620000,
+          627354
+        ],
+        [
+          627356,
+          627455
+        ],
+        [
+          627457,
+          627695
+        ],
+        [
+          627697,
+          627766
+        ],
+        [
+          627768,
+          629999
+        ],
+        [
+          644000,
+          659999
+        ],
+        [
+          601056,
+          601056
+        ],
+        [
+          603571,
+          603571
+        ]
+      ],
+      "included": [
+        [
+          500000,
+          509999
+        ],
+        [
+          560000,
+          699999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Maestro"
+  },
+  "MASTERCARD": {
+    "aids": [
+      "A0000000041010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          222100,
+          272099
+        ],
+        [
+          510000,
+          559999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Mastercard"
+  },
+  "MASTERCARD_COMMON_DEBIT": {
+    "aids": [
+      "A0000000042203"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Mastercard"
+  },
+  "VISA": {
+    "aids": [
+      "A0000000031010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          400000,
+          499999
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "VISA"
+  },
+  "VISA_COMMON_DEBIT": {
+    "aids": [
+      "A0000000980840"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "VISA"
+  },
+  "VISA_ELECTRON": {
+    "aids": [
+      "A0000000032010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "VISA Electron"
+  },
+  "VISA_INTERLINK": {
+    "aids": [
+      "A0000000033010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "VISA Interlink"
+  },
+  "GH_LINK": {
+    "aids": [],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": true,
+    "magstripeAllowPinBypass": true,
+    "magstripeLimitServiceCodeChecks": true,
+    "magstripeCoBrandedBins": [
+      502193,
+      502911,
+      502968,
+      505888,
+      506156,
+      507552,
+      507658,
+      507665,
+      507728,
+      581834,
+      581847,
+      581881,
+      585949,
+      585981,
+      585987,
+      585995,
+      585999,
+      589236,
+      601369,
+      603345,
+      604631,
+      604787,
+      604837,
+      604938,
+      605086,
+      605730,
+      606123,
+      606233,
+      606435,
+      606465,
+      606466,
+      627233,
+      628145,
+      636150,
+      636765,
+      636918,
+      639392
+    ],
+    "name": "GH-Link"
+  },
+  "ALIPAY": {
+    "aids": [],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Alipay"
+  },
+  "CYBERSOURCE_TOKEN": {
+    "aids": [],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Cybersource Token"
+  },
+  "VALUE_LINK": {
+    "aids": [],
+    "bins": {
+      "excluded": [],
+      "included": [
+        [
+          601056,
+          601056
+        ],
+        [
+          603571,
+          603571
+        ]
+      ]
+    },
+    "magstripeSupported": true,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "ValueLink"
+  },
+  "CARTES_BANCAIRES": {
+    "aids": [
+      "A0000000421010",
+      "A0000000422010",
+      "A0000000424010",
+      "A0000000425010"
+    ],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "Cartes Bancaires"
+  },
+  "WECHAT_PAY": {
+    "aids": [],
+    "bins": {
+      "excluded": [],
+      "included": []
+    },
+    "magstripeSupported": false,
+    "magstripeForcePin": false,
+    "magstripeAllowPinBypass": false,
+    "magstripeLimitServiceCodeChecks": false,
+    "magstripeCoBrandedBins": [],
+    "name": "WeChat Pay"
+  }
+}

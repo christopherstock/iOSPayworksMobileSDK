@@ -1,0 +1,17 @@
+{
+  "info": {
+    "locale": "en_US"
+  },
+  "rnib": {
+    "Intro": "Total amount is $amount$.\nPlease listen to these instructions or to start please insert your card at the bottom of the screen or tap the card on the screen. \n\nThe keypad is standard telephone layout with 1, 2, 3 towards the middle of the screen and cancel, zero and OK at the bottom. If you are too high on the screen, the device will tell you pin pad below. Tactile dots around the outside indicate the middle of a row or column. The row and column with the number 5 has two dots. The numbers are not spoken but the OK and cancel buttons speak the words OK and Cancel. Use the tactile markings to orientate yourself. Slide your finger onto the screen and then use the beeps to find the right digit. When you have found the digit you want, lift your finger and double tap anywhere on the screen to enter it. Once you have input all digits, move to the OK button at the bottom right of the screen. This will speak OK. Double tap anywhere on the screen to confirm. The cancel button at the bottom left will cancel the transaction. Please insert your card at the bottom of the screen to start the transaction.",
+    "PinPadDescription": "The keypad is standard telephone layout with 1, 2, 3 towards the middle of the screen and cancel, zero and OK at the bottom. If you are too high on the screen, the device will tell you pin pad below. Please enter your pin. Find the desired key using the beeps and tactile markings, then double tap anywhere on the screen to confirm. When finished select Enter at the bottom right and double tap.",
+    "PinAccepted": "Pin accepted",
+    "PinIsIncorrect": "Incorrect pin entered. Please try again.",
+    "PinEntryCancelled": "Pin entry cancelled. Transaction failed. Please remove card.",
+    "TransactionFailed": "Transaction failed. Please remove card.",
+    "TransactionApproved": "Transaction approved. Please remove card.",
+    "TransactionDeclined": "Transaction declined. Please remove card.",
+    "TransactionAccepted": "Transaction accepted. Please remove card.",
+    "PinIsIncorrectOnLastTry": "Pin is incorrect."
+  }
+}

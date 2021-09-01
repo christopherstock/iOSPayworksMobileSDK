@@ -1,0 +1,113 @@
+{
+  "info": {
+    "locale": "it_IT"
+  },
+  "labels": {
+    "Date": "Data",
+    "Time": "Ora",
+    "Status": "Stato",
+    "Amount": "Importo",
+    "Currency": "",
+    "AmountAndCurrency": "Importo",
+    "IncludedTipAmountAndCurrency": "Quantità mancia",
+    "PurchaseAmountAndCurrency": "Purchase Amount",
+    "TotalAmountAndCurrency": "Total Amount",
+    "StatusText": "Informazione",
+    "Subject": "Descrizione",
+    "TransactionType": "Tipo",
+    "ReceiptType": "Giustificativo",
+    "Identifier": "PWID",
+    "PaymentDetailsSource": "Modalità di immissione",
+    "PaymentDetailsEMVApplicationID": "AID",
+    "PaymentDetailsSchemeOrLabel": "Carta",
+    "PaymentDetailsMaskedAccount": "Conto",
+    "PaymentDetailsCustomerVerification": "Verifica",
+    "PaymentDetailsAccountSequenceNumber": "Numero di carta",
+    "PaymentDetailsTC": "TC",
+    "PaymentDetailsAAC": "AAC",
+    "ClearingDetailsTransactionIdentifier": "Transazione",
+    "ClearingDetailsOriginalTransactionIdentifier": "TA originale",
+    "ClearingDetailsAuthorizationCode": "Autorizzazione",
+    "ClearingDetailsMerchantId": "N. di contratto",
+    "ClearingDetailsTerminalId": "ID terminale",
+    "ClearingDetailsReasonCode": "",
+    "MerchantDetailsPublicName": "Nome",
+    "MerchantDetailsAddress": "Indirizzo",
+    "MerchantDetailsZip": "C.A.P.",
+    "MerchantDetailsCity": "Città",
+    "MerchantDetailsCountry": "Nazione",
+    "MerchantDetailsContact": "Contatto",
+    "MerchantDetailsAdditionalInformation": "Ulteriori Informazioni",
+    "OfflineEmvData": "Dati EMV offline",
+    "DccConversionRate": "Conversion Rate",
+    "DccConvertedAmountAndCurrency": "DCC Converted Amount",
+    "DccDisclaimer": "DCC Disclaimer"
+  },
+  "values": {
+    "DccDisclaimer": {
+      "PAYWORKS_DEMO_CONNECTOR": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.",
+      "SIX": "Cardholder has chosen to pay in %s. This transaction is based on %s exchange rate plus %s%% conversion margin. My choice is final. Transactions can also be conducted in %s.",
+      "FEXCO": "I have been offered a choice of currencies and agree to pay in the Transaction Currency shown. Currency Conversion is provided by %s."
+    },
+    "ReceiptType": {
+      "MERCHANT": "Giustificativo esercente",
+      "CUSTOMER": "Giustificativo cliente"
+    },
+    "StatusText": {
+      "APPROVED": "Conservare il giustificativo!",
+      "ACCEPTED": "Conservare il giustificativo!",
+      "DECLINED": "Autorizzazione rifiutata.",
+      "ABORTED": "Transazione interrotta.",
+      "ERROR": "Transazione non valida.",
+      "ALL_MATCH": "All match.",
+      "CVV_ONLY": "CVV Match Only",
+      "ADDRESS_ONLY": "Address match only.",
+      "NO_MATCHES": "No data matches.",
+      "NOT_CHECKED": "Data not checked.",
+      "APPROVED.VERIFICATION": "Account Valid.",
+      "DECLINED.VERIFICATION": "Cannot Validate.",
+      "ERROR.VERIFICATION": "Unable to Auth."
+    },
+    "PaymentDetailsSource": {
+      "ICC": "Chip",
+      "MAGSTRIPE": "Banda magnetica",
+      "CONTACTLESS": "Contactless",
+      "MAGSTRIPE_AS_FALLBACK": "Banda magnetica",
+      "MANUAL": "Manuale",
+      "MANUAL_AS_FALLBACK": "Manuale",
+      "NFC_ICC": "Contactless",
+      "NFC_MAGSTRIPE": "Contactless",
+      "QR_CODE": "QR Code",
+      "BARCODE": "Codice a barre",
+      "SOUNDWAVE": "Onda sonora"
+    },
+    "TransactionType": {
+      "CHARGE": "Pagamento",
+      "REFUND": "Storno",
+      "CHARGE_UNCAPTURED": "Pre-Autorizzazione",
+      "VERIFICATION": "Verifica dell'account"
+    },
+    "PaymentDetailsCustomerVerification": {
+      "NONE": "Nessuna",
+      "PIN": "PIN",
+      "SIGNATURE": "Firma",
+      "PIN_AND_SIGNATURE": "PIN e firma",
+      "SHOPPER_DEVICE": "Dispositivo clienti",
+      "CARD_SECURITY_CODE": "Codice di sicurezza della carta verificato.",
+      "UNKNOWN": "Sconosciuto",
+      "PIN_OFFLINE_PLAINTEXT": "PIN",
+      "PIN_OFFLINE_PLAINTEXT_AND_SIGNATURE": "PIN e firma",
+      "PIN_OFFLINE_ENCIPHERED": "PIN",
+      "PIN_OFFLINE_ENCIPHERED_AND_SIGNATURE": "PIN e firma",
+      "PIN_ONLINE": "PIN",
+      "CUSTOMER_DEVICE": "Dispositivo clienti"
+    },
+    "MessagesRetentionReminder": {
+      "MessagesRetentionReminder": "Conservare il giustificativo!"
+    },
+    "MessagesMerchantDeclaration": {
+      "REFUND": "SI PREGA DI ACCREDITARE IL MIO ACCOUNT CON L'IMPORTO MOSTRATO",
+      "CHARGE": "SI PREGA DI DEBITARE IL MIO ACCOUNT CON TOTAL SHOWN"
+    }
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "data" : [
+      {
+        "status" : "ACTIVE",
+        "model" : "VERIFONE_E355_VIPA",
+        "details" : {
+          "requiredConfiguration" : {
+            "version" : "VERIFONE_VIPA_CONFIG_GERMANY-1.0",
+            "files" : {
+              "02.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "89994096dabb107a6ce23e8752d58d58"
+              },
+              "iccdata.dat" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "f3252031326dbfb327bc161cb3d7ffff"
+              },
+              "mapp_vsd_sred.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "6f3dabd1128fae3c9c6719ff606a4582"
+              },
+              "#whitelist.dat" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "4ffe3b367b0c28b54b9583c51c8d0be9"
+              },
+              "contlemv.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "84d7a1c98dc6cf1ac893816bc9d7cf5b"
+              },
+              "icckeys.key" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "e3158c01d2223612e013c8c91ac17a51"
+              },
+              "tdol.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "f28de64d66271798f8da39dde2bba0cc"
+              }
+            }
+          },
+          "encryptionStatus" : "OK",
+          "hardwareRevision" : "M087-351-11-WWA-A11",
+          "updateStatus" : "DEVICE_PERFORMS_CHECK",
+          "requiredSoftware" : {
+            "version" : null,
+            "files" : {
+              "02_Certif_vipa_signing.crt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "01_Certif_config_signing.crt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              }
+            }
+          },
+          "requiredEncryption" : [
+            "SRED",
+            "PIN"
+          ],
+          "serialNo" : "400239377",
+          "terminalIds" : {
+            "VISA_ELECTRON" : "BAD43825",
+            "AMERICAN_EXPRESS" : "BAD43825",
+            "MASTERCARD" : "BAD43825",
+            "VISA" : "BAD43825",
+            "MAESTRO" : "BAD43825"
+          },
+          "requiredFirmware" : {
+            "version" : null,
+            "files" : {
+              "02_Certif_vipa_signing.crt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "01_Certif_config_signing.crt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              }
+            }
+          }
+        },
+        "identifier" : "0f930967-18fc-4ef7-8a1f-086dd92e66db"
+      },
+      {
+        "status" : "ACTIVE",
+        "model" : "MIURA_M010",
+        "details" : {
+          "requiredConfiguration" : {
+            "version" : "MIURA_CONFIG-2.0",
+            "files" : {
+              "contactless.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "TRMDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "TCDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.6"
+              },
+              "AACDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.4"
+              },
+              "MPI-Production.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "MPI-Dynamic.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.3"
+              },
+              "ARQCDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.5"
+              },
+              "capkeys.cfg.sig" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "EMVCAPK-V1-0"
+              },
+              "idle-screen-payworks.bmp" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "emv.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "3.0"
+              },
+              "ctls-prompts.txt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "M000-TESTMPI-Vx-x-INST-V3.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "3"
+              },
+              "emv-fallback.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "capkeys.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "EMVCAPK-V1-0"
+              },
+              "TDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.1"
+              }
+            }
+          },
+          "encryptionStatus" : "OK",
+          "hardwareRevision" : "M010-TEST01-V2-1",
+          "updateStatus" : "DEVICE_PERFORMS_CHECK",
+          "requiredSoftware" : {
+            "version" : "MIURA_SOFTWARE-1.38j",
+            "files" : {
+              "M000-TESTMPI-V1-38j.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1-38j"
+              }
+            }
+          },
+          "requiredEncryption" : [
+            "SRED",
+            "PIN"
+          ],
+          "serialNo" : "010003353",
+          "terminalIds" : {
+            "VISA_ELECTRON" : "BAD97708",
+            "AMERICAN_EXPRESS" : "BAD97708",
+            "MASTERCARD" : "BAD97708",
+            "VISA" : "BAD97708",
+            "MAESTRO" : "BAD97708"
+          },
+          "requiredFirmware" : {
+            "version" : "MIURA_FIRMWARE-7.6-1.4b",
+            "files" : {
+              "M000-TESTOSUPDATE-V1-4b.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1-4b"
+              },
+              "M000-TESTOS-V7-6.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "7-6"
+              }
+            }
+          }
+        },
+        "identifier" : "2ed38b8e-31e3-44b2-8f7d-adb74fff69dc"
+      },
+      {
+        "status" : "ACTIVE",
+        "model" : "MIURA_M010",
+        "details" : {
+          "requiredConfiguration" : {
+            "version" : "MIURA_CONFIG-2.0",
+            "files" : {
+              "contactless.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "TRMDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "TCDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.6"
+              },
+              "AACDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.4"
+              },
+              "MPI-Production.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "MPI-Dynamic.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.3"
+              },
+              "ARQCDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.5"
+              },
+              "capkeys.cfg.sig" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "EMVCAPK-V1-0"
+              },
+              "idle-screen-payworks.bmp" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "emv.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "3.0"
+              },
+              "ctls-prompts.txt" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1.0"
+              },
+              "M000-TESTMPI-Vx-x-INST-V3.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "3"
+              },
+              "emv-fallback.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.0"
+              },
+              "capkeys.cfg" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "EMVCAPK-V1-0"
+              },
+              "TDOL.CFG" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "2.1"
+              }
+            }
+          },
+          "encryptionStatus" : "OK",
+          "hardwareRevision" : "M010-TEST01-v2-5",
+          "updateStatus" : "DEVICE_PERFORMS_CHECK",
+          "requiredSoftware" : {
+            "version" : "MIURA_SOFTWARE-1.38j",
+            "files" : {
+              "M000-TESTMPI-V1-38j.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1-38j"
+              }
+            }
+          },
+          "requiredEncryption" : [
+            "SRED",
+            "PIN"
+          ],
+          "serialNo" : "010573494",
+          "terminalIds" : {
+            "VISA_ELECTRON" : "BAD21971",
+            "AMERICAN_EXPRESS" : "BAD21971",
+            "MASTERCARD" : "BAD21971",
+            "VISA" : "BAD21971",
+            "MAESTRO" : "BAD21971"
+          },
+          "requiredFirmware" : {
+            "version" : "MIURA_FIRMWARE-7.6-1.4b",
+            "files" : {
+              "M000-TESTOSUPDATE-V1-4b.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "1-4b"
+              },
+              "M000-TESTOS-V7-6.tar.gz" : {
+                "sha256" : null,
+                "data" : null,
+                "signature" : null,
+                "md5" : null,
+                "version" : "7-6"
+              }
+            }
+          }
+        },
+        "identifier" : "42299b98-38c7-470b-829a-eeb451887ff0"
+      }
+    ]
+}

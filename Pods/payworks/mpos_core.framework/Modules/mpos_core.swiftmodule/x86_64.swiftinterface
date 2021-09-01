@@ -1,0 +1,101 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mpos_core
+import Foundation
+import Swift
+import core
+@_exported import mpos_core
+@objc @_inheritsConvenienceInitializers public class ProviderModeMapper : ObjectiveC.NSObject {
+  public static func mapToKotlin(providerMode: mpos_core.MPProviderMode) -> core.ProviderMode
+  public static func mapFromKotlin(_ providerMode: core.ProviderMode) -> mpos_core.MPProviderMode
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class VipaTacOnlineTagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class SDKComponent : ObjectiveC.NSObject {
+  @objc public static let provideCoreComponent: core.CoreComponent
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class VipaScriptResults1TagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class CybersourceBackendApi : ObjectiveC.NSObject, core.BackendApi {
+  @objc public func syncFeatureToggles(credentials: core.MerchantCredentials, callback: @escaping (core.SdkStartupResponseWrapper) -> Swift.Void, error: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class SDKFeatureToggle : ObjectiveC.NSObject {
+  @objc public static let testFeature: core.FeatureToggle
+  @objc public static let testFeature2: core.FeatureToggle
+  @objc public static let metricsDetailedMessage: core.FeatureToggle
+  @objc public static let jwtAuthentication: core.FeatureToggle
+  @objc public static let allFeatures: [core.FeatureToggle]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class VipaTacDefaultTagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class PayworksSessionConfiguration : ObjectiveC.NSObject {
+  @objc public static var sessionConfiguration: Foundation.URLSessionConfiguration? {
+    @objc get
+    @objc set(newValue)
+  }
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LanguageEvaluator : ObjectiveC.NSObject {
+  @objc public var prefersMerchantLanguage: Swift.Bool
+  @objc public init(merchantLanguage: Swift.String, supportedLanguages: [Swift.String])
+  @objc public func languageCode(cardLanguages: [Swift.String]) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class VipaScriptResults2TagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class FeatureTogglesFactory : ObjectiveC.NSObject {
+  @objc public static func create(options: mpos_core.MPProviderOptions) -> core.FeatureToggleManager?
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class VipaTacDenialTagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers public class VipaKernelIdTagMapping : mpos_core.PWSTLVBinaryTagMapping {
+  @objc override dynamic public class func tag() -> Foundation.Data?
+  @objc override dynamic public class func shortDescription() -> Swift.String
+  @objc override dynamic public class func longDescription() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_inheritsConvenienceInitializers @objc public class ConfigurableMockFeatureToggleManager : ObjectiveC.NSObject, core.FeatureToggleManager {
+  @objc public var featureTogglesEnabled: [core.FeatureToggle]
+  @objc public func features() -> [Swift.String]
+  @objc public func isFeatureEnabled(featureToggle: core.FeatureToggle) -> Swift.Bool
+  @objc public func sync()
+  @objc override dynamic public init()
+  @objc deinit
+}
