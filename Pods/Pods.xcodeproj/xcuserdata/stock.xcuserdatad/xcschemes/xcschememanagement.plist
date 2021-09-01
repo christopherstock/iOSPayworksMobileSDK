@@ -9,17 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-iOSPayworksMobileSDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-iOSPayworksMobileSDKTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -1,4 +1,0 @@
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSignatureView.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_core.framework
-${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_ui.framework

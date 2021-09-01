@@ -1,6 +1,0 @@
-framework module Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests {
-  umbrella header "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
