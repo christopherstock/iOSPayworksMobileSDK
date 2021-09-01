@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Transaction can no longer be aborted"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorized Amount"
+    ],
     "TransactionDeclined": [
       "Transaction declined"
     ],
@@ -78,6 +81,9 @@
       "Transaction aborted"
     ],
     "TransactionError": [
+      "Transaction error"
+    ],
+    "TransactionVoidInconclusive": [
       "Transaction error"
     ],
     "TransactionActionError": [

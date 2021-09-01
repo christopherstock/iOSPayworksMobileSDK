@@ -7,11 +7,12 @@
     "PinPadDescription": "The keypad is standard telephone layout with 1, 2, 3 towards the middle of the screen and cancel, zero and OK at the bottom. If you are too high on the screen, the device will tell you pin pad below. Please enter your pin. Find the desired key using the beeps and tactile markings, then double tap anywhere on the screen to confirm. When finished select Enter at the bottom right and double tap.",
     "PinAccepted": "Pin accepted",
     "PinIsIncorrect": "Incorrect pin entered. Please try again.",
-    "PinEntryCancelled": "Pin entry cancelled. Transaction failed. Please remove card.",
-    "TransactionFailed": "Transaction failed. Please remove card.",
-    "TransactionApproved": "Transaction approved. Please remove card.",
-    "TransactionDeclined": "Transaction declined. Please remove card.",
-    "TransactionAccepted": "Transaction accepted. Please remove card.",
-    "PinIsIncorrectOnLastTry": "Pin is incorrect."
+    "PinEntryCancelled": "Pin entry cancelled. Transaction failed.",
+    "TransactionFailed": "Transaction failed.",
+    "TransactionApproved": "Transaction approved.",
+    "TransactionDeclined": "Transaction declined.",
+    "TransactionAccepted": "Transaction accepted.",
+    "PinIsIncorrectOnLastTry": "Pin is incorrect.",
+    "RemoveCard": "Please remove card."
   }
 }

@@ -13,13 +13,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MPProviderOptionsExtension : NSObject
 
-@property (strong, readwrite, nonatomic, nullable) NSString *merchantIdentifier;
-@property (strong, readwrite, nonatomic, nullable) NSString *merchantSecretKey;
+@property (strong, readwrite, nonatomic) NSString *merchantIdentifier;
+@property (strong, readwrite, nonatomic) NSString *merchantSecretKey;
 @property (assign, readwrite, nonatomic) MPProviderMode mode;
 @property (assign, nonatomic, readwrite) NSUInteger maxReceiptLineLength;
 @property (strong, nonatomic, nullable) NSString *customURL;
-
 @property (strong, nonatomic) MPResourceHandler *resourceHandler;
+
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
+- (instancetype)initWithMode:(MPProviderMode)mode merchantIdentifier:(NSString *)merchantIdentifier merchantSecret:(NSString *)merchantString;
+
++ (instancetype)mock;
 
 @end
 

@@ -9,250 +9,112 @@
 /* Begin PBXAggregateTarget section */
 		34491D794E1B2224A2BB06ECEC436AE9 /* payworks.paybutton */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 793DC02A2512B4BD25F30F0AF8365082 /* Build configuration list for PBXAggregateTarget "payworks.paybutton" */;
+			buildConfigurationList = 11A11A125B0348D7DB4BDE46DBC9E360 /* Build configuration list for PBXAggregateTarget "payworks.paybutton" */;
 			buildPhases = (
 			);
 			dependencies = (
-				648764C9087941B560D8F7B21B5F4C85 /* PBXTargetDependency */,
-				C2240C557771177B47531A6AA063628D /* PBXTargetDependency */,
-				D5E5EA6CE783DEB81684113BDEB734AC /* PBXTargetDependency */,
+				C051186DD30B3A294C66530AAE15AEEB /* PBXTargetDependency */,
+				DF3CFDDA2E5B83777B3DC16C86209AD4 /* PBXTargetDependency */,
 			);
 			name = payworks.paybutton;
 		};
 		FF97BA7091D54061DD1A31D8636E69F1 /* payworks */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 80F441D8DBD479FA4C0DCBDF49A1C994 /* Build configuration list for PBXAggregateTarget "payworks" */;
+			buildConfigurationList = E9E8F979827D6D0B63121420F97B7F35 /* Build configuration list for PBXAggregateTarget "payworks" */;
 			buildPhases = (
 			);
 			dependencies = (
-				513073FA39DAB9C88BEBEB9D873549DC /* PBXTargetDependency */,
-				16CA3462AF970E2DC56C8D37C266AF0E /* PBXTargetDependency */,
 			);
 			name = payworks;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B16D512000923F6A91AD2174E70814 /* UIRefreshControl+AFNetworking.m */; };
-		02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 150562649A073552D64BF3470F88BB37 /* UIProgressView+AFNetworking.m */; };
-		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7FB862E57DBF65DB7257401E7E3E08 /* Keychain.swift */; };
-		0686B5528EC62C92C6B8FCE07BA811E8 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 533F19DC7D379271C79B36D2252EEB45 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		073E0238C79208C7372C2D8C592EDD70 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8708DE08C41B4F599D3C5AD77D8D9E8C /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FF16CB7163EBC35BF569026492F04E92 /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88B055B3ECC3837699CF7B0A0311334 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C4677088663DC08B69B208E258317AE /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D94767BA313E5D08195F6FDE276663 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E06BB15914BD520F36F39C3E9785B0D /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D886961DD63F215BCA116CD9CC4A06 /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14CF8CD0FAB313731B28699537886F95 /* Lockbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0D2A3509C84C9F3E27A8537CCE688 /* Lockbox-dummy.m */; };
-		163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC442FE5E664B1911EC7675E023E688 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17F5EE499BD15753D98BFF92D52D8EE7 /* Pods-iOSPayworksMobileSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE940C5580359157074D051CD09EF1E /* Pods-iOSPayworksMobileSDK-dummy.m */; };
-		1CAE0B7C8751A2558DF9E98666A08EE6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
-		1E4236F1870A64A39E721DA07981DE8E /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC01E797453910EFE30CB2B46092C1C /* DDFileLogger.m */; };
-		232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD05530C5FAE71E83681939D6C045EC /* UIImageView+AFNetworking.m */; };
-		2492F5A1B9A25DE9BC81300178563EB7 /* SwiftSignatureView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 433D88C910E5ED1CACD92B4E1DB8D1D1 /* SwiftSignatureView-dummy.m */; };
-		2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B440398442F563319888A43521F44A /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		27651D7EAA2BCF597B20D13FBACA2696 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AC717B48A8CEF621FD0D9FB9FF374F /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2820DF2BCF236BB31DBBBAC26A75A84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA13DA6FFAFEE069A93C3889166509B /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D2F1C583A4B6B48974DD14A018312 /* AFNetworkReachabilityManager.m */; };
+		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3683F47839BF9A21463ED1CE271D916 /* Keychain.swift */; };
+		2492F5A1B9A25DE9BC81300178563EB7 /* SwiftSignatureView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF0C3D71908E915392D0936352D8D5D /* SwiftSignatureView-dummy.m */; };
 		33BA0597A079B1E74E9974C57229161D /* Pods-iOSPayworksMobileSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4FDCBC176D34D4A60517DEEB1D1800 /* Pods-iOSPayworksMobileSDKTests-dummy.m */; };
-		34145A1F33EA3DCDAF874ED503336190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		379074F0EEB4C66A5D85D5EF3D108278 /* Lockbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BEC6F7691C4D2E9635F437096D094 /* Lockbox.m */; };
-		38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A9B11392BC75DD7FD0688A9FA04616 /* UIButton+AFNetworking.m */; };
-		3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E614FE1DA5E8C5ECD1235ED5FE197C7 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E800DADC74A4071B02B9E03861C6488 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE026C475CBFDE6ADE948823A40674A /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m */; };
-		3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 601EE337D40123E7536A7D9911262F92 /* AFNetworking-dummy.m */; };
-		40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B6CD6CBCD40A2A885477B1C0AC80BC /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40930FDD8761AC97E822AF65B25D6304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		4112E61CC303758C91B823C8E2060991 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7283422846C8E9BE4E2ACB1C1B9DB89D /* DDASLLogCapture.m */; };
-		450C0A8AAF5119D3AAC83E089C5A3E68 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8F2A9A5A7F250E36162DAB9233D5D4 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4956D62D8C5CDC0B45478268BC9CCAE8 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DA96DDCB1D617E5F89F3C58571AF5B /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE633D47E60ACF42179FA0141EAAC3F /* AFAutoPurgingImageCache.m */; };
-		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAFE5B848227B587ACD4176816604CA /* KeychainAccess-dummy.m */; };
-		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F0455CB4BB426ECA2CB6D35DC6B096 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50E5DEC2E152F93C499E5FB997B65F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		53369DA7CA835ACB6BDD3FB716BACF72 /* SwiftSignatureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A88A948D9D56887B2E262D362970F /* SwiftSignatureViewDelegate.swift */; };
-		567DC4267D7CF8B72BEBA60F89B77172 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1329E49DE780FAB1B9A3689FDBB688F0 /* DDMultiFormatter.m */; };
-		56EC1532A0C73CAE7EA56CB10D652ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		59CA69FDE322D92C05FA7DF5B026946D /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFB135249CBAFEF6666D8D425BF9103 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C85525FA814B39EF7D3B64DF639472B /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9630AA7A633C995A4705A51286F10DC /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D3F0A1D588B63B2FB85DDCF1A945AB5 /* PencilKitSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83AD2809EB073B05D20067834D2695 /* PencilKitSignatureView.swift */; };
-		6228DBA43ABC638AD046567C9702D0B2 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB449371D6621BC8807B1C7202623DC /* DDDispatchQueueLogFormatter.m */; };
-		649C362FBDAB612D483AD53B63FD1271 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C289826B47B92D549FA37817850168F3 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A4DE582B2BDBF81CBD6224B06457531 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C83658B5CAD6AC520FCF0C4595FC1C6 /* DDFileLogger+Buffering.m */; };
-		6BB267FD35A88D632DD1D9730E6F9EF9 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB32C0C4144B8DB721141BA270794D0 /* DDOSLogger.m */; };
-		6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C2B40BE29F1624184705C7A7CFDA8E /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8A57B942470BA79EED3536469BC3E8 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75FD67DA706217C53441C2AA078A16B3 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1A39C6A1A3969A55140B6D72A1D164 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE840C989E8E176638C32A7E3FEA589 /* AFURLSessionManager.m */; };
-		7B49D7B4569DC273920DA6959BE4F0F4 /* Lockbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 837C3176E43A5E7EC588CD72750CFF1D /* Lockbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8012FD52D0461030C7F34815306721A5 /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A8BEE252CC38DA20DC9EFF1920832F /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80EAC1845927880596D3B80D20B9F868 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8B9962433AA0892FBC3E616E8083BF /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899E20ACD2E7CF04123B9A8A6F03A86 /* AFURLResponseSerialization.m */; };
-		8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DC95EBC066007E220B187D6B560EDD /* AFHTTPSessionManager.m */; };
-		8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6E7A05D7D97C99CD012EFA74F23CE1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D402C387B9C3FB45A6DBB0028B79869 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B0E50F45D5964969D7303364B379A8 /* DDASLLogger.m */; };
-		951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A6CCDC242A1BAE87CCA47F62A8ADB1 /* WKWebView+AFNetworking.m */; };
-		9C610FB9D8F77F67581AEBA72E89B7B6 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED9593B7282985E528A2DB84C415575 /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 979B086D3E75B89A632899E523998571 /* AFNetworkActivityIndicatorManager.m */; };
-		9EBF29F5F5A365DD9715C5275B26B067 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31944FD1CAC35AC6B4D2AF38A3255B8C /* CocoaLumberjack-dummy.m */; };
-		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		9EE11CA6853349A2133DE7C864ED1E2B /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 924A5E5B88E7EA19F95211189E5F3BCC /* DDLoggerNames.m */; };
-		9FAB408C51A88092129C89136CFD61C3 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D325320B6B31F1540B7D8005AD2A65 /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A0984B957543610270F8506A9C20E27A /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EEC08820C3488EE2770B785637AD69 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2BF8C57BCD052810B661ECCF788D6A8 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ABAFA13B934ADDF9BA57E9D8E540A3 /* CLIColor.m */; };
-		A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED89746FA4C19098D9AF32665CB6EB71 /* AFSecurityPolicy.m */; };
-		A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5C05AAF0A7AB11469E9E6534C3394C /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CF412FAFBD30556D9F5BB37B07E547 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDCEA3A9F5008543964D70D8B62252C /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6D8A5E20DB43C55AD9A5DB3A3F5D1A4 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA5E578C17E49171300943EF871C842 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC81D2E4AE6EDA397215BB6C6A8058BE /* AFImageDownloader.m */; };
-		B928F27DA52F53E129CA00572AF059CC /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D2309CA63167D28B452B63881DA7F3EF /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A08CCFC28AD2C12E35FBFB9E8983BE06 /* AFURLRequestSerialization.m */; };
-		BCAF6FA42E6A2182E63BA165934FDAA3 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D598C6656C545E65E54113E8CFCBAF /* DDContextFilterLogFormatter.m */; };
-		BF4BFDBE42987BF54C3F245836E5612B /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E47237C7CE2DD5E395A87A8BBC2FDB2A /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0F012A7DA9060D03939EE0E53B6D1DF /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D429D5BAA4343FEF41E91A2780827F /* DDAbstractDatabaseLogger.m */; };
-		C6B8487DB3B876FBA7EADE3748DB1590 /* SwiftSignatureView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CE7C54DB741C1E84943D2EE28B4577 /* SwiftSignatureView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6DF070F0B2A20BFE848B672FFC11EE1 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BACDB8B3533EB63B048EA20A34DFE9E /* CLIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C717D331149C4D2D4D705604531860A6 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C54EC224C279A2CD71DCB10CB0C1B /* DDLog.m */; };
-		C74BBC1F6A69A9615D97E68208034BA5 /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1699F3549B34D257B54D9A25CCB32690 /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C98A8CA64F1355708145D8AFAD38B6AD /* LegacySignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F2CAC1856BA0FE94911280668BA79 /* LegacySignatureView.swift */; };
-		C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B814D10FA729FB48421453AD16D970 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE58C0E36EF59E6160C27D61B8BF49EF /* SwiftSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B7649F18694F3E746944F410BE6D76 /* SwiftSignatureView.swift */; };
-		D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 914198E4B88D3E47E72C56F59FA1D585 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3E14FB3CED790C7222CD7B14B77F1B /* DDContextFilterLogFormatter+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 9346FDD2C152F6C24447F7F21CEA43D0 /* DDContextFilterLogFormatter+Deprecated.m */; };
-		E743498C0061F34786E1096EC9574B0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
-		E810AFCC73AA18A6F1680AF1A7DEC336 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CBFD2DE03DA18BA37E139596F8DFAA /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8CDBD8AF82FB010C520CCC2205D421E /* Lockbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880BDA50C4684BC8E0122D4AB5E9BAB8 /* Lockbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 134BAB07CAC9C77FE1C6E588EAE67624 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34145A1F33EA3DCDAF874ED503336190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E6BBB74F617DAEE04CA730ED80C8D32 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9630AA7A633C995A4705A51286F10DC /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40930FDD8761AC97E822AF65B25D6304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7700A0BFC3108C70165FAE4961855D9 /* KeychainAccess-dummy.m */; };
+		52C1683712F28B8F57488AD795704C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		53369DA7CA835ACB6BDD3FB716BACF72 /* SwiftSignatureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB48AF3565593B242DF250F88B376C /* SwiftSignatureViewDelegate.swift */; };
+		5D3F0A1D588B63B2FB85DDCF1A945AB5 /* PencilKitSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A9C174FAD6417C4087B9EAB22EC8B /* PencilKitSignatureView.swift */; };
+		85EE7E2DF286B802E6CCCD17CE214FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9B4BE38D6DEE94BB4F5BC1D203657DF0 /* Pods-iOSPayworksMobileSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE940C5580359157074D051CD09EF1E /* Pods-iOSPayworksMobileSDK-dummy.m */; };
+		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C01801B6D0B6A804A34F67FB95B0888C /* Pods-iOSPayworksMobileSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E73B0A2C875D2978CEE43543D393B8 /* Pods-iOSPayworksMobileSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6B8487DB3B876FBA7EADE3748DB1590 /* SwiftSignatureView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A8A60AB2B800A22AE8A7374F9BE8E1 /* SwiftSignatureView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98A8CA64F1355708145D8AFAD38B6AD /* LegacySignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E970DF325A2EC319B34092680201E0 /* LegacySignatureView.swift */; };
+		CE58C0E36EF59E6160C27D61B8BF49EF /* SwiftSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78EC475EE7307606C43621282ED9A57 /* SwiftSignatureView.swift */; };
 		ECDD6E71CFD92BF1784E72A91B17F0AF /* Pods-iOSPayworksMobileSDKTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB658DC535A73DCA1BB2037CA6FB3DFF /* Pods-iOSPayworksMobileSDKTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F78DF9692521160B7EA27096DC049C3B /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF32D32A5E7B0143142C3775727996A9 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC882431236576E40EFAAC0BBB8A600 /* DDTTYLogger.m */; };
-		F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E164D2D77CC0EE78F1A2D5526C6E4A /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 061BDB873E8623C4707A1BE9F551274A /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD62D472546486894845BA6901DA5F6C /* Pods-iOSPayworksMobileSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E73B0A2C875D2978CEE43543D393B8 /* Pods-iOSPayworksMobileSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 29187721C52741CF561E11082791F049 /* UIActivityIndicatorView+AFNetworking.m */; };
+		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1D5CFACE440F4669DD4F506D96E376 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD5ADA65CC26DCCD3289AE406BEBF19 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE026C475CBFDE6ADE948823A40674A /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B95F449A3C85E9AA09FC41C80CABC56 /* PBXContainerItemProxy */ = {
+		30FD5B6857022BCFF965184187997CE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 77FF5E066D2B1955FFA0177ECFA4DF75;
 			remoteInfo = SwiftSignatureView;
 		};
-		17CFCDDC37E6E5535A0C15740FC27266 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E875D11AD986EDEB42F0F0170213445;
-			remoteInfo = Lockbox;
-		};
-		1A5419D852800920D069BBF67DF0AC14 /* PBXContainerItemProxy */ = {
+		353B95E66F46BD1A6138CA8ABA8330CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FF97BA7091D54061DD1A31D8636E69F1;
 			remoteInfo = payworks;
 		};
-		1F1706A886C00C4AB184E1416858C982 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E875D11AD986EDEB42F0F0170213445;
-			remoteInfo = Lockbox;
-		};
-		37FE9DE4EC3CC252CF751362BB254FDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34491D794E1B2224A2BB06ECEC436AE9;
-			remoteInfo = payworks.paybutton;
-		};
-		3A418A0DE19B01AA275E22B6A10F2185 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34491D794E1B2224A2BB06ECEC436AE9;
-			remoteInfo = payworks.paybutton;
-		};
-		487FF045F14C7AF3DD5E53B7D2EDC7E1 /* PBXContainerItemProxy */ = {
+		626E3D2ABE3BD8261886B7A585A46FB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 77FF5E066D2B1955FFA0177ECFA4DF75;
 			remoteInfo = SwiftSignatureView;
 		};
-		4FC982C23F001C4CC4077F288BAB1691 /* PBXContainerItemProxy */ = {
+		94290C6746E0A9A82A299349C3ADA2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		AEC9C4478EC0E5AED0AF2AB2F671297D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		BA08015FCB7581BCDA1EDE1E709EFDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34491D794E1B2224A2BB06ECEC436AE9;
+			remoteInfo = payworks.paybutton;
+		};
+		C39D04A0C33A9EA91C030141532D5661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34491D794E1B2224A2BB06ECEC436AE9;
+			remoteInfo = payworks.paybutton;
+		};
+		CD4CE0E9908C4705A6272454DC82E9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FF5E066D2B1955FFA0177ECFA4DF75;
+			remoteInfo = SwiftSignatureView;
+		};
+		D06DA2B8173F6229A18B15E60BCF2CEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FF97BA7091D54061DD1A31D8636E69F1;
 			remoteInfo = payworks;
-		};
-		8624AB11799A13EB0126AF6A42BA2901 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		9B34796F7EB21E861B1AEE371A0C670F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		A622FA54B6E8C067503A55758AF7558D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
-			remoteInfo = KeychainAccess;
-		};
-		B860DB208E7F4CC3DB3BABAC074B380F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E875D11AD986EDEB42F0F0170213445;
-			remoteInfo = Lockbox;
-		};
-		B985966685BB6008EF8252567D6F615B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
-			remoteInfo = CocoaLumberjack;
-		};
-		BF17A5BFAD24CC83BDE15B09AE2C81C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
-			remoteInfo = CocoaLumberjack;
-		};
-		CA1343C03CA59282A6187B1D4C5FE17D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
-			remoteInfo = CocoaLumberjack;
-		};
-		DB48D926466D12CCFF37A2949B11E173 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
-			remoteInfo = KeychainAccess;
-		};
-		DFAA6A296493FE6E39C9905F3831D80C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
 		};
 		EC39B93C078B27202E1A94E7C5776021 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -261,14 +123,7 @@
 			remoteGlobalIDString = 94F8EADF445850B3F11C976EAD8C30C5;
 			remoteInfo = "Pods-iOSPayworksMobileSDK";
 		};
-		F20FA736D3D1B7007051C8531F47074D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 77FF5E066D2B1955FFA0177ECFA4DF75;
-			remoteInfo = SwiftSignatureView;
-		};
-		FB8F01418AF34DF204B4634073FBC4AA /* PBXContainerItemProxy */ = {
+		F5A737E542D7A0141B0F5290F36A3C39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -278,177 +133,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02EBA719BD7DFC829089D6A14095E91F /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		061BDB873E8623C4707A1BE9F551274A /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		06CC52173A725FE035EBD858C99BB0FF /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		028A9C174FAD6417C4087B9EAB22EC8B /* PencilKitSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PencilKitSignatureView.swift; path = Pod/Classes/PencilKitSignatureView.swift; sourceTree = "<group>"; };
 		075E26313D34DE0CB500AD899060AA51 /* Pods-iOSPayworksMobileSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPayworksMobileSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
-		085F2CAC1856BA0FE94911280668BA79 /* LegacySignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacySignatureView.swift; path = Pod/Classes/LegacySignatureView.swift; sourceTree = "<group>"; };
-		09B16D512000923F6A91AD2174E70814 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		0C4B1943362E07D0CD6BB451FB1EA409 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-frameworks.sh"; sourceTree = "<group>"; };
-		0ED9593B7282985E528A2DB84C415575 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
-		12CE7C54DB741C1E84943D2EE28B4577 /* SwiftSignatureView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-umbrella.h"; sourceTree = "<group>"; };
-		1329E49DE780FAB1B9A3689FDBB688F0 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
-		134BAB07CAC9C77FE1C6E588EAE67624 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		14691512EF498501C3496DEF671D4879 /* Lockbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lockbox.xcconfig; sourceTree = "<group>"; };
-		150562649A073552D64BF3470F88BB37 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		1699F3549B34D257B54D9A25CCB32690 /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLoggerNames.h; sourceTree = "<group>"; };
 		19858EC6F4E52256AAB20A040562DFC6 /* Pods_iOSPayworksMobileSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPayworksMobileSDK.framework; path = "Pods-iOSPayworksMobileSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C83658B5CAD6AC520FCF0C4595FC1C6 /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		19985C20685F983CE0B5A83B5E634458 /* SwiftSignatureView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSignatureView.xcconfig; sourceTree = "<group>"; };
 		1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSignatureView.framework; path = SwiftSignatureView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F44DB3E9A0BEC8EECBEDF123CD8F1EE /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		234A85BF1F6C088A1A33CF26821A71D9 /* SwiftSignatureView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSignatureView.xcconfig; sourceTree = "<group>"; };
 		25AAF12AD193D3F886253C0DBDC99683 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
-		26A8BEE252CC38DA20DC9EFF1920832F /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
-		27C2B40BE29F1624184705C7A7CFDA8E /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		29187721C52741CF561E11082791F049 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		29DA96DDCB1D617E5F89F3C58571AF5B /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
-		2BACDB8B3533EB63B048EA20A34DFE9E /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
 		2C252D468B62801CFFBD85C250401D46 /* Pods-iOSPayworksMobileSDKTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPayworksMobileSDKTests.modulemap"; sourceTree = "<group>"; };
 		2C4FDCBC176D34D4A60517DEEB1D1800 /* Pods-iOSPayworksMobileSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPayworksMobileSDKTests-dummy.m"; sourceTree = "<group>"; };
-		2C6E7A05D7D97C99CD012EFA74F23CE1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		2EDB48AF3565593B242DF250F88B376C /* SwiftSignatureViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSignatureViewDelegate.swift; path = Pod/Classes/SwiftSignatureViewDelegate.swift; sourceTree = "<group>"; };
 		30F93685B8DACDFFC07B80145746224D /* Pods-iOSPayworksMobileSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDK-acknowledgements.plist"; sourceTree = "<group>"; };
-		31944FD1CAC35AC6B4D2AF38A3255B8C /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
-		32ABAFA13B934ADDF9BA57E9D8E540A3 /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Sources/CocoaLumberjack/CLI/CLIColor.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		349E17B33537B5CAEFBB4D05C8C6E50E /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDKTests.release.xcconfig"; sourceTree = "<group>"; };
-		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		40D429D5BAA4343FEF41E91A2780827F /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		433D88C910E5ED1CACD92B4E1DB8D1D1 /* SwiftSignatureView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSignatureView-dummy.m"; sourceTree = "<group>"; };
-		4450E90562E94DCE2C31206CD30359EC /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		46D414D6CBD0FD03E313A28DD2CE0C61 /* core.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = core.xcframework; sourceTree = "<group>"; };
-		46DC95EBC066007E220B187D6B560EDD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		4899E20ACD2E7CF04123B9A8A6F03A86 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		371265064B34F39CD23E25AB8DF19DFB /* mpos_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_core.framework; sourceTree = "<group>"; };
+		3D2F1A3182CF3E1E8E69708B1D709183 /* mpos_ui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_ui.framework; sourceTree = "<group>"; };
 		48A2EE4ED34482699F7AA85D7DFA4747 /* Pods-iOSPayworksMobileSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		4A84C27D839B58CFFD55F3C74CC26495 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
-		4C5C05AAF0A7AB11469E9E6534C3394C /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		4C7572408BD275FED0ED55D4A2E61A58 /* Pods_iOSPayworksMobileSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPayworksMobileSDKTests.framework; path = "Pods-iOSPayworksMobileSDKTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDA3F9EC3E42D043E5D808A31A82E98 /* Pods-iOSPayworksMobileSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDK-Info.plist"; sourceTree = "<group>"; };
-		4E614FE1DA5E8C5ECD1235ED5FE197C7 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		4F2D2F1C583A4B6B48974DD14A018312 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		533F19DC7D379271C79B36D2252EEB45 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		514E5A1CF7785AD120BC11103BFA1DCF /* SwiftSignatureView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSignatureView.modulemap; sourceTree = "<group>"; };
 		5378C0881F5E16C299698D740C2108D6 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		55EC0136CE757E3F6F0EB932E057649A /* SwiftSignatureView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-prefix.pch"; sourceTree = "<group>"; };
-		5C8A57B942470BA79EED3536469BC3E8 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		5CC01E797453910EFE30CB2B46092C1C /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
 		5D4810520859A692039E5210347E0E98 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
-		601EE337D40123E7536A7D9911262F92 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		62B0E50F45D5964969D7303364B379A8 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Sources/CocoaLumberjack/DDASLLogger.m; sourceTree = "<group>"; };
 		62E73B0A2C875D2978CEE43543D393B8 /* Pods-iOSPayworksMobileSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPayworksMobileSDK-umbrella.h"; sourceTree = "<group>"; };
-		63CF412FAFBD30556D9F5BB37B07E547 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		67E164D2D77CC0EE78F1A2D5526C6E4A /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		6CE840C989E8E176638C32A7E3FEA589 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		6FB32C0C4144B8DB721141BA270794D0 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
-		70E1A11A9890B0FEE55085577F4527DE /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
-		7283422846C8E9BE4E2ACB1C1B9DB89D /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Sources/CocoaLumberjack/DDASLLogCapture.m; sourceTree = "<group>"; };
-		74F0455CB4BB426ECA2CB6D35DC6B096 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		77D886961DD63F215BCA116CD9CC4A06 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = "Sources/CocoaLumberjack/Supporting Files/CocoaLumberjack.h"; sourceTree = "<group>"; };
-		79D598C6656C545E65E54113E8CFCBAF /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		7A83AD2809EB073B05D20067834D2695 /* PencilKitSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PencilKitSignatureView.swift; path = Pod/Classes/PencilKitSignatureView.swift; sourceTree = "<group>"; };
+		68B869134383AB633713F4C706469826 /* SwiftSignatureView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-prefix.pch"; sourceTree = "<group>"; };
+		7271108496A346455AF242DE79123D14 /* payworks.paybutton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.paybutton.xcconfig; sourceTree = "<group>"; };
+		75E970DF325A2EC319B34092680201E0 /* LegacySignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacySignatureView.swift; path = Pod/Classes/LegacySignatureView.swift; sourceTree = "<group>"; };
 		7AE026C475CBFDE6ADE948823A40674A /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m"; sourceTree = "<group>"; };
-		7BDCEA3A9F5008543964D70D8B62252C /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		7DE940C5580359157074D051CD09EF1E /* Pods-iOSPayworksMobileSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSPayworksMobileSDK-dummy.m"; sourceTree = "<group>"; };
-		7EA13DA6FFAFEE069A93C3889166509B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		7FC882431236576E40EFAAC0BBB8A600 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
-		837C3176E43A5E7EC588CD72750CFF1D /* Lockbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Lockbox.h; sourceTree = "<group>"; };
-		85C44B19DD487E5A1F42CA0C5DD2D420 /* mpos_ui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_ui.framework; sourceTree = "<group>"; };
-		8708DE08C41B4F599D3C5AD77D8D9E8C /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
-		880BDA50C4684BC8E0122D4AB5E9BAB8 /* Lockbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lockbox-umbrella.h"; sourceTree = "<group>"; };
+		82BE41C4F541DABBCCA35F76562E3B01 /* payworks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.xcconfig; sourceTree = "<group>"; };
 		8960E75B92965E8067A7735CA32AEE8A /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist"; sourceTree = "<group>"; };
+		8A1D5CFACE440F4669DD4F506D96E376 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
 		8A40BB54AA024BAF74521B5B687A3740 /* Pods-iOSPayworksMobileSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSPayworksMobileSDK-frameworks.sh"; sourceTree = "<group>"; };
-		8BD05530C5FAE71E83681939D6C045EC /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		8CEA96B39ED3CCBB28632C7B5520684F /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap"; sourceTree = "<group>"; };
-		8F1A39C6A1A3969A55140B6D72A1D164 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
-		8F2BA30704DA445EC6C9AFDBBE34902E /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		8F3E2CE2C57F5F4E186579E79C131969 /* Lockbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Lockbox-Info.plist"; sourceTree = "<group>"; };
-		901BEC6F7691C4D2E9635F437096D094 /* Lockbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Lockbox.m; sourceTree = "<group>"; };
-		914198E4B88D3E47E72C56F59FA1D585 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		91B440398442F563319888A43521F44A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		924A5E5B88E7EA19F95211189E5F3BCC /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
 		929E84B42A00B445CBE0477BA6E02650 /* Pods-iOSPayworksMobileSDKTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDKTests-Info.plist"; sourceTree = "<group>"; };
-		92EEC08820C3488EE2770B785637AD69 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
-		9346FDD2C152F6C24447F7F21CEA43D0 /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDContextFilterLogFormatter+Deprecated.m"; path = "Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
-		93CBFD2DE03DA18BA37E139596F8DFAA /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
-		952E260807C521ABEBC6FFF8F863694C /* mpos_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mpos_core.framework; sourceTree = "<group>"; };
-		96D94767BA313E5D08195F6FDE276663 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
-		971C54EC224C279A2CD71DCB10CB0C1B /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
-		979B086D3E75B89A632899E523998571 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		9CC5EDD921A68764D082BA347CED5410 /* Pods-iOSPayworksMobileSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPayworksMobileSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D93201C17C8B86A4846D0B8B3509610 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A08CCFC28AD2C12E35FBFB9E8983BE06 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A0D2A3509C84C9F3E27A8537CCE688 /* Lockbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lockbox-dummy.m"; sourceTree = "<group>"; };
-		AB45B97FA8511B02C38B42ECB798D6A1 /* SwiftSignatureView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSignatureView-Info.plist"; sourceTree = "<group>"; };
+		A6A8A60AB2B800A22AE8A7374F9BE8E1 /* SwiftSignatureView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-umbrella.h"; sourceTree = "<group>"; };
 		AB658DC535A73DCA1BB2037CA6FB3DFF /* Pods-iOSPayworksMobileSDKTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPayworksMobileSDKTests-umbrella.h"; sourceTree = "<group>"; };
-		ABC442FE5E664B1911EC7675E023E688 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		AF5DD94E0C9594A6E2D1D50BF7D33507 /* Lockbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lockbox.framework; path = Lockbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0A9B11392BC75DD7FD0688A9FA04616 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		B2B7649F18694F3E746944F410BE6D76 /* SwiftSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSignatureView.swift; path = Pod/Classes/SwiftSignatureView.swift; sourceTree = "<group>"; };
-		B5B6CD6CBCD40A2A885477B1C0AC80BC /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		BA9A5D03396B3DD4CDCCA0D339536D8B /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
-		BB219EB04D7FD71236913C5A6EB272FD /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
-		C0AC717B48A8CEF621FD0D9FB9FF374F /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
-		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C289826B47B92D549FA37817850168F3 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		C4A6CCDC242A1BAE87CCA47F62A8ADB1 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		C6D325320B6B31F1540B7D8005AD2A65 /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
-		C7B814D10FA729FB48421453AD16D970 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BBB4BEE2E4524049F24E6B0C16E53749 /* core.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = core.xcframework; sourceTree = "<group>"; };
+		C2ABE085A8954E3AF0D80C57755069AB /* SwiftSignatureView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSignatureView-Info.plist"; sourceTree = "<group>"; };
+		C3683F47839BF9A21463ED1CE271D916 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		C7700A0BFC3108C70165FAE4961855D9 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
 		C9630AA7A633C995A4705A51286F10DC /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h"; sourceTree = "<group>"; };
-		CAA5E578C17E49171300943EF871C842 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
-		CD0CCCAD5777EB30E29F77F446853FC0 /* payworks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.xcconfig; sourceTree = "<group>"; };
-		D2309CA63167D28B452B63881DA7F3EF /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
-		D2C1422C41F70D77BE1BA26FD2E643E0 /* payworks.paybutton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = payworks.paybutton.xcconfig; sourceTree = "<group>"; };
-		D9E6C2C1AF50781E9F8E10D3CD00DDB1 /* Lockbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Lockbox.modulemap; sourceTree = "<group>"; };
-		DA3AB012174986F012E29909FA32E0A3 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		D21713457C8148E76C1E876671448E26 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
+		DCBE9E27407A55714DB255529CD38296 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
 		DEEB39CC2981248AB59AD603EB02FFE0 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEFB135249CBAFEF6666D8D425BF9103 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
-		DF121A31EBDAD50B8C96002A58B0712F /* Lockbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lockbox-prefix.pch"; sourceTree = "<group>"; };
 		E2DFB318F830A9ED02F621376F587289 /* Pods-iOSPayworksMobileSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSPayworksMobileSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3DD9F9F31A8A42528F3BC4595438229 /* Pods-iOSPayworksMobileSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSPayworksMobileSDK.release.xcconfig"; sourceTree = "<group>"; };
-		E47237C7CE2DD5E395A87A8BBC2FDB2A /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		E88B055B3ECC3837699CF7B0A0311334 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		E78EC475EE7307606C43621282ED9A57 /* SwiftSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSignatureView.swift; path = Pod/Classes/SwiftSignatureView.swift; sourceTree = "<group>"; };
 		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8B9962433AA0892FBC3E616E8083BF /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
-		ED89746FA4C19098D9AF32665CB6EB71 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EF7FB862E57DBF65DB7257401E7E3E08 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
-		EFE633D47E60ACF42179FA0141EAAC3F /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		F34A88A948D9D56887B2E262D362970F /* SwiftSignatureViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSignatureViewDelegate.swift; path = Pod/Classes/SwiftSignatureViewDelegate.swift; sourceTree = "<group>"; };
+		EBF0C3D71908E915392D0936352D8D5D /* SwiftSignatureView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSignatureView-dummy.m"; sourceTree = "<group>"; };
+		F3EE5A88155F8C785C53CCFFC8AAD26A /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
 		F41C3669C9883905C7EFE291FAD92C45 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78DF9692521160B7EA27096DC049C3B /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
 		F90509FBECC7EEDFD75EDAD05A65E2D2 /* Pods-iOSPayworksMobileSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSPayworksMobileSDK.modulemap"; sourceTree = "<group>"; };
-		FA469717DA337D02BC2FA5599C5BD45B /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
-		FAAFE5B848227B587ACD4176816604CA /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
-		FAD40D9E5C7AA944DF2F561EF47A814E /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
 		FB307CE02DA6D02C45482BBC8B3A9F2A /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC81D2E4AE6EDA397215BB6C6A8058BE /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		FD8F2A9A5A7F250E36162DAB9233D5D4 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogCapture.h; sourceTree = "<group>"; };
-		FDB449371D6621BC8807B1C7202623DC /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		FE91A72D300F82A8211ACE12746CE855 /* SwiftSignatureView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSignatureView.modulemap; sourceTree = "<group>"; };
-		FF16CB7163EBC35BF569026492F04E92 /* WKWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+AFNetworking.h"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F9C9655CCFFB795B2A1C9920C2B9276 /* Frameworks */ = {
+		267E1302E5D0E5404855D6D16AF47944 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EC1532A0C73CAE7EA56CB10D652ACF /* Foundation.framework in Frameworks */,
-				1CAE0B7C8751A2558DF9E98666A08EE6 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A067A1DA16B96ECEB94002E5750544A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2820DF2BCF236BB31DBBBAC26A75A84F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E5E44DD96BF875CEBC0D1EB9F33A615 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E743498C0061F34786E1096EC9574B0C /* Foundation.framework in Frameworks */,
+				85EE7E2DF286B802E6CCCD17CE214FA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,14 +215,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F9BCCCF510F65077210B8D9944565EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27256E913790A1EC111854E3D10E67F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D464A2ADE79206AB925E0AC915920DFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,93 +223,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA9C197ED3142EA51A2DF919AD70C1D6 /* Frameworks */ = {
+		F817382D9CBF1220CA6F4B93AFF141E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E5DEC2E152F93C499E5FB997B65F4F /* Foundation.framework in Frameworks */,
+				52C1683712F28B8F57488AD795704C64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D198E999663DDB8785CA55A7B30DAC2 /* Support Files */ = {
+		10CE43AEDAB0FD599DDD2DBC170CE537 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				70E1A11A9890B0FEE55085577F4527DE /* CocoaLumberjack.modulemap */,
-				FAD40D9E5C7AA944DF2F561EF47A814E /* CocoaLumberjack.xcconfig */,
-				31944FD1CAC35AC6B4D2AF38A3255B8C /* CocoaLumberjack-dummy.m */,
-				BB219EB04D7FD71236913C5A6EB272FD /* CocoaLumberjack-Info.plist */,
-				8F2BA30704DA445EC6C9AFDBBE34902E /* CocoaLumberjack-prefix.pch */,
-				29DA96DDCB1D617E5F89F3C58571AF5B /* CocoaLumberjack-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaLumberjack";
-			sourceTree = "<group>";
-		};
-		0F4F18D6B56B54FAD6EC6CF317CB2B9C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				2BACDB8B3533EB63B048EA20A34DFE9E /* CLIColor.h */,
-				32ABAFA13B934ADDF9BA57E9D8E540A3 /* CLIColor.m */,
-				77D886961DD63F215BCA116CD9CC4A06 /* CocoaLumberjack.h */,
-				E47237C7CE2DD5E395A87A8BBC2FDB2A /* DDAbstractDatabaseLogger.h */,
-				40D429D5BAA4343FEF41E91A2780827F /* DDAbstractDatabaseLogger.m */,
-				FD8F2A9A5A7F250E36162DAB9233D5D4 /* DDASLLogCapture.h */,
-				7283422846C8E9BE4E2ACB1C1B9DB89D /* DDASLLogCapture.m */,
-				D2309CA63167D28B452B63881DA7F3EF /* DDASLLogger.h */,
-				62B0E50F45D5964969D7303364B379A8 /* DDASLLogger.m */,
-				92EEC08820C3488EE2770B785637AD69 /* DDAssertMacros.h */,
-				533F19DC7D379271C79B36D2252EEB45 /* DDContextFilterLogFormatter.h */,
-				79D598C6656C545E65E54113E8CFCBAF /* DDContextFilterLogFormatter.m */,
-				26A8BEE252CC38DA20DC9EFF1920832F /* DDContextFilterLogFormatter+Deprecated.h */,
-				9346FDD2C152F6C24447F7F21CEA43D0 /* DDContextFilterLogFormatter+Deprecated.m */,
-				C289826B47B92D549FA37817850168F3 /* DDDispatchQueueLogFormatter.h */,
-				FDB449371D6621BC8807B1C7202623DC /* DDDispatchQueueLogFormatter.m */,
-				93CBFD2DE03DA18BA37E139596F8DFAA /* DDFileLogger.h */,
-				5CC01E797453910EFE30CB2B46092C1C /* DDFileLogger.m */,
-				0ED9593B7282985E528A2DB84C415575 /* DDFileLogger+Buffering.h */,
-				1C83658B5CAD6AC520FCF0C4595FC1C6 /* DDFileLogger+Buffering.m */,
-				C6D325320B6B31F1540B7D8005AD2A65 /* DDFileLogger+Internal.h */,
-				8F1A39C6A1A3969A55140B6D72A1D164 /* DDLegacyMacros.h */,
-				96D94767BA313E5D08195F6FDE276663 /* DDLog.h */,
-				971C54EC224C279A2CD71DCB10CB0C1B /* DDLog.m */,
-				C0AC717B48A8CEF621FD0D9FB9FF374F /* DDLog+LOGV.h */,
-				1699F3549B34D257B54D9A25CCB32690 /* DDLoggerNames.h */,
-				924A5E5B88E7EA19F95211189E5F3BCC /* DDLoggerNames.m */,
-				8708DE08C41B4F599D3C5AD77D8D9E8C /* DDLogMacros.h */,
-				EC8B9962433AA0892FBC3E616E8083BF /* DDMultiFormatter.h */,
-				1329E49DE780FAB1B9A3689FDBB688F0 /* DDMultiFormatter.m */,
-				DEFB135249CBAFEF6666D8D425BF9103 /* DDOSLogger.h */,
-				6FB32C0C4144B8DB721141BA270794D0 /* DDOSLogger.m */,
-				CAA5E578C17E49171300943EF871C842 /* DDTTYLogger.h */,
-				7FC882431236576E40EFAAC0BBB8A600 /* DDTTYLogger.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		14933819A510840372E0EA02672D9796 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				914198E4B88D3E47E72C56F59FA1D585 /* AFNetworking.h */,
-				B4C88D4A0718AE686626F91EACB6FA70 /* NSURLSession */,
-				F28D33D46287B9D1ABD10ACED53E88A6 /* Reachability */,
-				5FA1B3AA714ADFA08871D4660E2E368A /* Security */,
-				23698EFEBCA7D36B57ADEB01F742538E /* Serialization */,
-				9A37C2406E9DAA38C3EBDFF44AD029DD /* Support Files */,
-				2969980FA7604D4BA3948075292BDE95 /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */,
+				3D2F1A3182CF3E1E8E69708B1D709183 /* mpos_ui.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		156DAA4AB0737F28DF35CDA3A9C745E1 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				471DFAA6E3A0A6B471F9B6D842193586 /* Frameworks */,
+			);
+			name = core;
 			sourceTree = "<group>";
 		};
 		162C9D062327D8A68E2116ED73E76510 /* Targets Support Files */ = {
@@ -583,88 +260,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1B57A730E97C9215BACBF1F096A17496 /* Support Files */ = {
+		20A792340557ADE2EFBC6F692E212F5B /* KeychainAccess */ = {
 			isa = PBXGroup;
 			children = (
-				BA9A5D03396B3DD4CDCCA0D339536D8B /* KeychainAccess.modulemap */,
-				FA469717DA337D02BC2FA5599C5BD45B /* KeychainAccess.xcconfig */,
-				FAAFE5B848227B587ACD4176816604CA /* KeychainAccess-dummy.m */,
-				DA3AB012174986F012E29909FA32E0A3 /* KeychainAccess-Info.plist */,
-				4A84C27D839B58CFFD55F3C74CC26495 /* KeychainAccess-prefix.pch */,
-				F78DF9692521160B7EA27096DC049C3B /* KeychainAccess-umbrella.h */,
+				C3683F47839BF9A21463ED1CE271D916 /* Keychain.swift */,
+				D36181D89CE4036C74520973F2CB612E /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		24C5798E7738721DF6F1C0A94089C3C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				514E5A1CF7785AD120BC11103BFA1DCF /* SwiftSignatureView.modulemap */,
+				19985C20685F983CE0B5A83B5E634458 /* SwiftSignatureView.xcconfig */,
+				EBF0C3D71908E915392D0936352D8D5D /* SwiftSignatureView-dummy.m */,
+				C2ABE085A8954E3AF0D80C57755069AB /* SwiftSignatureView-Info.plist */,
+				68B869134383AB633713F4C706469826 /* SwiftSignatureView-prefix.pch */,
+				A6A8A60AB2B800A22AE8A7374F9BE8E1 /* SwiftSignatureView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KeychainAccess";
+			path = "../Target Support Files/SwiftSignatureView";
 			sourceTree = "<group>";
 		};
-		1EDFA7B265CAAA431F20A5561072A69D /* core */ = {
+		471DFAA6E3A0A6B471F9B6D842193586 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3DD604BCC74A1D5ECD58CB5CE71BDFD /* Frameworks */,
+				BBB4BEE2E4524049F24E6B0C16E53749 /* core.xcframework */,
+				371265064B34F39CD23E25AB8DF19DFB /* mpos_core.framework */,
 			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		23698EFEBCA7D36B57ADEB01F742538E /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				91B440398442F563319888A43521F44A /* AFURLRequestSerialization.h */,
-				A08CCFC28AD2C12E35FBFB9E8983BE06 /* AFURLRequestSerialization.m */,
-				2C6E7A05D7D97C99CD012EFA74F23CE1 /* AFURLResponseSerialization.h */,
-				4899E20ACD2E7CF04123B9A8A6F03A86 /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		24B66AADA14B19210DA9D10B64C64B9A /* payworks */ = {
-			isa = PBXGroup;
-			children = (
-				73DE93298C4D2A2E4C4CC5CA111FF8AD /* mpos */,
-				DC1A1551C92CECDF7299E0383B7D88F1 /* Support Files */,
-			);
-			name = payworks;
-			path = payworks;
-			sourceTree = "<group>";
-		};
-		2969980FA7604D4BA3948075292BDE95 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				27C2B40BE29F1624184705C7A7CFDA8E /* AFAutoPurgingImageCache.h */,
-				EFE633D47E60ACF42179FA0141EAAC3F /* AFAutoPurgingImageCache.m */,
-				7BDCEA3A9F5008543964D70D8B62252C /* AFImageDownloader.h */,
-				FC81D2E4AE6EDA397215BB6C6A8058BE /* AFImageDownloader.m */,
-				5C8A57B942470BA79EED3536469BC3E8 /* AFNetworkActivityIndicatorManager.h */,
-				979B086D3E75B89A632899E523998571 /* AFNetworkActivityIndicatorManager.m */,
-				134BAB07CAC9C77FE1C6E588EAE67624 /* UIActivityIndicatorView+AFNetworking.h */,
-				29187721C52741CF561E11082791F049 /* UIActivityIndicatorView+AFNetworking.m */,
-				B5B6CD6CBCD40A2A885477B1C0AC80BC /* UIButton+AFNetworking.h */,
-				B0A9B11392BC75DD7FD0688A9FA04616 /* UIButton+AFNetworking.m */,
-				67E164D2D77CC0EE78F1A2D5526C6E4A /* UIImageView+AFNetworking.h */,
-				8BD05530C5FAE71E83681939D6C045EC /* UIImageView+AFNetworking.m */,
-				74F0455CB4BB426ECA2CB6D35DC6B096 /* UIKit+AFNetworking.h */,
-				4E614FE1DA5E8C5ECD1235ED5FE197C7 /* UIProgressView+AFNetworking.h */,
-				150562649A073552D64BF3470F88BB37 /* UIProgressView+AFNetworking.m */,
-				7EA13DA6FFAFEE069A93C3889166509B /* UIRefreshControl+AFNetworking.h */,
-				09B16D512000923F6A91AD2174E70814 /* UIRefreshControl+AFNetworking.m */,
-				FF16CB7163EBC35BF569026492F04E92 /* WKWebView+AFNetworking.h */,
-				C4A6CCDC242A1BAE87CCA47F62A8ADB1 /* WKWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		3C5D88326071FDC1594F78DDF0C2D600 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
-				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack.framework */,
-				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
-				AF5DD94E0C9594A6E2D1D50BF7D33507 /* Lockbox.framework */,
-				19858EC6F4E52256AAB20A040562DFC6 /* Pods_iOSPayworksMobileSDK.framework */,
-				F41C3669C9883905C7EFE291FAD92C45 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */,
-				4C7572408BD275FED0ED55D4A2E61A58 /* Pods_iOSPayworksMobileSDKTests.framework */,
-				1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		52B8C7E099B69855A611CEF380B0F3C4 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests */ = {
@@ -684,98 +310,34 @@
 			path = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests";
 			sourceTree = "<group>";
 		};
-		56DD8E4579579E11E6DFB4AABFEF1491 /* payworks.paybutton */ = {
+		5CEA43ECBFC74AC656E7F34CEE6814B3 /* SwiftSignatureView */ = {
 			isa = PBXGroup;
 			children = (
-				9250E97B9A92552040588FBA56E4C0F6 /* Frameworks */,
-				8297789A66FA641335F3C95FAF10B8B9 /* Support Files */,
+				75E970DF325A2EC319B34092680201E0 /* LegacySignatureView.swift */,
+				028A9C174FAD6417C4087B9EAB22EC8B /* PencilKitSignatureView.swift */,
+				E78EC475EE7307606C43621282ED9A57 /* SwiftSignatureView.swift */,
+				2EDB48AF3565593B242DF250F88B376C /* SwiftSignatureViewDelegate.swift */,
+				24C5798E7738721DF6F1C0A94089C3C0 /* Support Files */,
 			);
-			name = payworks.paybutton;
-			path = payworks.paybutton;
+			name = SwiftSignatureView;
+			path = SwiftSignatureView;
 			sourceTree = "<group>";
 		};
-		5FA1B3AA714ADFA08871D4660E2E368A /* Security */ = {
+		6DCECDE5E51337FB5561DCA94194F791 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63CF412FAFBD30556D9F5BB37B07E547 /* AFSecurityPolicy.h */,
-				ED89746FA4C19098D9AF32665CB6EB71 /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		606BDF6267F9D04CB94DC2EC2BAFA2E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE91A72D300F82A8211ACE12746CE855 /* SwiftSignatureView.modulemap */,
-				234A85BF1F6C088A1A33CF26821A71D9 /* SwiftSignatureView.xcconfig */,
-				433D88C910E5ED1CACD92B4E1DB8D1D1 /* SwiftSignatureView-dummy.m */,
-				AB45B97FA8511B02C38B42ECB798D6A1 /* SwiftSignatureView-Info.plist */,
-				55EC0136CE757E3F6F0EB932E057649A /* SwiftSignatureView-prefix.pch */,
-				12CE7C54DB741C1E84943D2EE28B4577 /* SwiftSignatureView-umbrella.h */,
+				82BE41C4F541DABBCCA35F76562E3B01 /* payworks.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftSignatureView";
+			path = "../Target Support Files/payworks";
 			sourceTree = "<group>";
 		};
-		66B6A449AC61FABE61D5CD048B5FD60F /* Lockbox */ = {
+		7B7929E376CF7C8495AF417D6B0BA0F2 /* mpos */ = {
 			isa = PBXGroup;
 			children = (
-				837C3176E43A5E7EC588CD72750CFF1D /* Lockbox.h */,
-				901BEC6F7691C4D2E9635F437096D094 /* Lockbox.m */,
-				7C2A17234C772FB3488E7CC9F6BBECE6 /* Support Files */,
-			);
-			name = Lockbox;
-			path = Lockbox;
-			sourceTree = "<group>";
-		};
-		6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */,
-				40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6EC4014CD9E0025A47709DA03ABDB659 /* CocoaLumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				0F4F18D6B56B54FAD6EC6CF317CB2B9C /* Core */,
-				0D198E999663DDB8785CA55A7B30DAC2 /* Support Files */,
-			);
-			name = CocoaLumberjack;
-			path = CocoaLumberjack;
-			sourceTree = "<group>";
-		};
-		73DE93298C4D2A2E4C4CC5CA111FF8AD /* mpos */ = {
-			isa = PBXGroup;
-			children = (
-				1EDFA7B265CAAA431F20A5561072A69D /* core */,
+				156DAA4AB0737F28DF35CDA3A9C745E1 /* core */,
 			);
 			name = mpos;
-			sourceTree = "<group>";
-		};
-		7C2A17234C772FB3488E7CC9F6BBECE6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D9E6C2C1AF50781E9F8E10D3CD00DDB1 /* Lockbox.modulemap */,
-				14691512EF498501C3496DEF671D4879 /* Lockbox.xcconfig */,
-				A6A0D2A3509C84C9F3E27A8537CCE688 /* Lockbox-dummy.m */,
-				8F3E2CE2C57F5F4E186579E79C131969 /* Lockbox-Info.plist */,
-				DF121A31EBDAD50B8C96002A58B0712F /* Lockbox-prefix.pch */,
-				880BDA50C4684BC8E0122D4AB5E9BAB8 /* Lockbox-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Lockbox";
-			sourceTree = "<group>";
-		};
-		8297789A66FA641335F3C95FAF10B8B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D2C1422C41F70D77BE1BA26FD2E643E0 /* payworks.paybutton.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/payworks.paybutton";
 			sourceTree = "<group>";
 		};
 		863DF7D4A46F32A39AD765E029FD8EE8 /* Pods-iOSPayworksMobileSDK */ = {
@@ -795,12 +357,14 @@
 			path = "Target Support Files/Pods-iOSPayworksMobileSDK";
 			sourceTree = "<group>";
 		};
-		9250E97B9A92552040588FBA56E4C0F6 /* Frameworks */ = {
+		8910C41119AA5023C147165842A0A87E /* payworks.paybutton */ = {
 			isa = PBXGroup;
 			children = (
-				85C44B19DD487E5A1F42CA0C5DD2D420 /* mpos_ui.framework */,
+				10CE43AEDAB0FD599DDD2DBC170CE537 /* Frameworks */,
+				DA7E081DFEB237690B749489B55E290B /* Support Files */,
 			);
-			name = Frameworks;
+			name = payworks.paybutton;
+			path = payworks.paybutton;
 			sourceTree = "<group>";
 		};
 		9657C522093D3F946864930D19C0BD1D /* Pods-iOSPayworksMobileSDKTests */ = {
@@ -819,143 +383,97 @@
 			path = "Target Support Files/Pods-iOSPayworksMobileSDKTests";
 			sourceTree = "<group>";
 		};
-		9A37C2406E9DAA38C3EBDFF44AD029DD /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				06CC52173A725FE035EBD858C99BB0FF /* AFNetworking.modulemap */,
-				1F44DB3E9A0BEC8EECBEDF123CD8F1EE /* AFNetworking.xcconfig */,
-				601EE337D40123E7536A7D9911262F92 /* AFNetworking-dummy.m */,
-				4450E90562E94DCE2C31206CD30359EC /* AFNetworking-Info.plist */,
-				02EBA719BD7DFC829089D6A14095E91F /* AFNetworking-prefix.pch */,
-				E88B055B3ECC3837699CF7B0A0311334 /* AFNetworking-umbrella.h */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		AA8F51FCA51F968859EB7D86E8AAE032 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				14933819A510840372E0EA02672D9796 /* AFNetworking */,
-				6EC4014CD9E0025A47709DA03ABDB659 /* CocoaLumberjack */,
-				DC19AB233D7AF7CC2BE18B8D430D9BF4 /* KeychainAccess */,
-				66B6A449AC61FABE61D5CD048B5FD60F /* Lockbox */,
-				24B66AADA14B19210DA9D10B64C64B9A /* payworks */,
-				56DD8E4579579E11E6DFB4AABFEF1491 /* payworks.paybutton */,
-				E0851932F43914EEB3A17CD03375C6AD /* SwiftSignatureView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B3DD604BCC74A1D5ECD58CB5CE71BDFD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				46D414D6CBD0FD03E313A28DD2CE0C61 /* core.xcframework */,
-				952E260807C521ABEBC6FFF8F863694C /* mpos_core.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B4C88D4A0718AE686626F91EACB6FA70 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				061BDB873E8623C4707A1BE9F551274A /* AFCompatibilityMacros.h */,
-				C7B814D10FA729FB48421453AD16D970 /* AFHTTPSessionManager.h */,
-				46DC95EBC066007E220B187D6B560EDD /* AFHTTPSessionManager.m */,
-				4C5C05AAF0A7AB11469E9E6534C3394C /* AFURLSessionManager.h */,
-				6CE840C989E8E176638C32A7E3FEA589 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				AA8F51FCA51F968859EB7D86E8AAE032 /* Pods */,
-				3C5D88326071FDC1594F78DDF0C2D600 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D10C512BA0FAEE384BC05299F90DDF7A /* Pods */,
+				FF5E2B9767C90D1B810AC889039CEF90 /* Products */,
 				162C9D062327D8A68E2116ED73E76510 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DC19AB233D7AF7CC2BE18B8D430D9BF4 /* KeychainAccess */ = {
+		D10C512BA0FAEE384BC05299F90DDF7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF7FB862E57DBF65DB7257401E7E3E08 /* Keychain.swift */,
-				1B57A730E97C9215BACBF1F096A17496 /* Support Files */,
+				20A792340557ADE2EFBC6F692E212F5B /* KeychainAccess */,
+				DCF52F41C5BD635A379BE85D0A60B35D /* payworks */,
+				8910C41119AA5023C147165842A0A87E /* payworks.paybutton */,
+				5CEA43ECBFC74AC656E7F34CEE6814B3 /* SwiftSignatureView */,
 			);
-			name = KeychainAccess;
-			path = KeychainAccess;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC1A1551C92CECDF7299E0383B7D88F1 /* Support Files */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD0CCCAD5777EB30E29F77F446853FC0 /* payworks.xcconfig */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36181D89CE4036C74520973F2CB612E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D93201C17C8B86A4846D0B8B3509610 /* KeychainAccess.modulemap */,
+				D21713457C8148E76C1E876671448E26 /* KeychainAccess.xcconfig */,
+				C7700A0BFC3108C70165FAE4961855D9 /* KeychainAccess-dummy.m */,
+				F3EE5A88155F8C785C53CCFFC8AAD26A /* KeychainAccess-Info.plist */,
+				DCBE9E27407A55714DB255529CD38296 /* KeychainAccess-prefix.pch */,
+				8A1D5CFACE440F4669DD4F506D96E376 /* KeychainAccess-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/payworks";
+			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
-		E0851932F43914EEB3A17CD03375C6AD /* SwiftSignatureView */ = {
+		DA7E081DFEB237690B749489B55E290B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				085F2CAC1856BA0FE94911280668BA79 /* LegacySignatureView.swift */,
-				7A83AD2809EB073B05D20067834D2695 /* PencilKitSignatureView.swift */,
-				B2B7649F18694F3E746944F410BE6D76 /* SwiftSignatureView.swift */,
-				F34A88A948D9D56887B2E262D362970F /* SwiftSignatureViewDelegate.swift */,
-				606BDF6267F9D04CB94DC2EC2BAFA2E7 /* Support Files */,
+				7271108496A346455AF242DE79123D14 /* payworks.paybutton.xcconfig */,
 			);
-			name = SwiftSignatureView;
-			path = SwiftSignatureView;
+			name = "Support Files";
+			path = "../Target Support Files/payworks.paybutton";
 			sourceTree = "<group>";
 		};
-		F28D33D46287B9D1ABD10ACED53E88A6 /* Reachability */ = {
+		DCF52F41C5BD635A379BE85D0A60B35D /* payworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABC442FE5E664B1911EC7675E023E688 /* AFNetworkReachabilityManager.h */,
-				4F2D2F1C583A4B6B48974DD14A018312 /* AFNetworkReachabilityManager.m */,
+				7B7929E376CF7C8495AF417D6B0BA0F2 /* mpos */,
+				6DCECDE5E51337FB5561DCA94194F791 /* Support Files */,
 			);
-			name = Reachability;
+			name = payworks;
+			path = payworks;
+			sourceTree = "<group>";
+		};
+		FF5E2B9767C90D1B810AC889039CEF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
+				19858EC6F4E52256AAB20A040562DFC6 /* Pods_iOSPayworksMobileSDK.framework */,
+				F41C3669C9883905C7EFE291FAD92C45 /* Pods_iOSPayworksMobileSDK_iOSPayworksMobileSDKUITests.framework */,
+				4C7572408BD275FED0ED55D4A2E61A58 /* Pods_iOSPayworksMobileSDKTests.framework */,
+				1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20AA229476544685D91525123AAB26C6 /* Headers */ = {
+		0FADC5ADA57F17A474BE6BEF0C5CA35C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C85525FA814B39EF7D3B64DF639472B /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2266024E313A6BBAA8891AEF16C1EB56 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6DF070F0B2A20BFE848B672FFC11EE1 /* CLIColor.h in Headers */,
-				4956D62D8C5CDC0B45478268BC9CCAE8 /* CocoaLumberjack-umbrella.h in Headers */,
-				0E06BB15914BD520F36F39C3E9785B0D /* CocoaLumberjack.h in Headers */,
-				BF4BFDBE42987BF54C3F245836E5612B /* DDAbstractDatabaseLogger.h in Headers */,
-				450C0A8AAF5119D3AAC83E089C5A3E68 /* DDASLLogCapture.h in Headers */,
-				B928F27DA52F53E129CA00572AF059CC /* DDASLLogger.h in Headers */,
-				A0984B957543610270F8506A9C20E27A /* DDAssertMacros.h in Headers */,
-				8012FD52D0461030C7F34815306721A5 /* DDContextFilterLogFormatter+Deprecated.h in Headers */,
-				0686B5528EC62C92C6B8FCE07BA811E8 /* DDContextFilterLogFormatter.h in Headers */,
-				649C362FBDAB612D483AD53B63FD1271 /* DDDispatchQueueLogFormatter.h in Headers */,
-				9C610FB9D8F77F67581AEBA72E89B7B6 /* DDFileLogger+Buffering.h in Headers */,
-				9FAB408C51A88092129C89136CFD61C3 /* DDFileLogger+Internal.h in Headers */,
-				E810AFCC73AA18A6F1680AF1A7DEC336 /* DDFileLogger.h in Headers */,
-				75FD67DA706217C53441C2AA078A16B3 /* DDLegacyMacros.h in Headers */,
-				27651D7EAA2BCF597B20D13FBACA2696 /* DDLog+LOGV.h in Headers */,
-				0C4677088663DC08B69B208E258317AE /* DDLog.h in Headers */,
-				C74BBC1F6A69A9615D97E68208034BA5 /* DDLoggerNames.h in Headers */,
-				073E0238C79208C7372C2D8C592EDD70 /* DDLogMacros.h in Headers */,
-				80EAC1845927880596D3B80D20B9F868 /* DDMultiFormatter.h in Headers */,
-				59CA69FDE322D92C05FA7DF5B026946D /* DDOSLogger.h in Headers */,
-				B6D8A5E20DB43C55AD9A5DB3A3F5D1A4 /* DDTTYLogger.h in Headers */,
+				C01801B6D0B6A804A34F67FB95B0888C /* Pods-iOSPayworksMobileSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,40 +485,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		474A97E65E6F7AC223CA1F87588E7331 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD62D472546486894845BA6901DA5F6C /* Pods-iOSPayworksMobileSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EE482EF823C5090378A600998A120F9 /* AFAutoPurgingImageCache.h in Headers */,
-				F4352388490E70C1CF187D93E390FB2A /* AFCompatibilityMacros.h in Headers */,
-				C9F701A2E6208D9E840E7A91287F21B9 /* AFHTTPSessionManager.h in Headers */,
-				B4658F8495B18BD4EB5D893CAFF3BBBC /* AFImageDownloader.h in Headers */,
-				722EC0191A173ECB2121618467D32DF4 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				08D5C0606D6FBFB4877FC3C3FF4A2208 /* AFNetworking-umbrella.h in Headers */,
-				D66716504D475B6377F7DD5C7C2BBCDE /* AFNetworking.h in Headers */,
-				163B07BE98EAA270AF0A7AA82F84208E /* AFNetworkReachabilityManager.h in Headers */,
-				AECFCA2598AABAEB044F6C4594F3222F /* AFSecurityPolicy.h in Headers */,
-				2657AB4F1D04803DABFE7DDF80C0EF7F /* AFURLRequestSerialization.h in Headers */,
-				8D060BB549FA8C46C8A5E230C7E00CFE /* AFURLResponseSerialization.h in Headers */,
-				A7E6C236F5C97B35484B553454B609B0 /* AFURLSessionManager.h in Headers */,
-				E8EB9F2CFC54AFE86B618DB528647311 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				40426F061CD9B0B435C690CAFEA2BD00 /* UIButton+AFNetworking.h in Headers */,
-				F191431A32F803DC12F12EF3B4D984BD /* UIImageView+AFNetworking.h in Headers */,
-				4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */,
-				3CA0C9185ED4469D427AA53B26E1B18F /* UIProgressView+AFNetworking.h in Headers */,
-				2AB5C7D99BD529942B2C81AB0CD8A600 /* UIRefreshControl+AFNetworking.h in Headers */,
-				07E08C56386C02093F27CF28E4D01F11 /* WKWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BCD36E6D61BA7CBA110C7635237F2CDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1009,12 +493,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDBD5DF764B00D90BCD2C3FF7CF10182 /* Headers */ = {
+		F1D61C63E248A70D33555D1D5786AA33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8CDBD8AF82FB010C520CCC2205D421E /* Lockbox-umbrella.h in Headers */,
-				7B49D7B4569DC273920DA6959BE4F0F4 /* Lockbox.h in Headers */,
+				3E6BBB74F617DAEE04CA730ED80C8D32 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,43 +512,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
-			buildPhases = (
-				B9ECBAE3144164158FDC62D90C3CEFDB /* Headers */,
-				6F66130117A5CA2EFE69F1739F512499 /* Sources */,
-				8F9BCCCF510F65077210B8D9944565EC /* Frameworks */,
-				5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AFNetworking;
-			productName = AFNetworking;
-			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		41B8D558261975C1FF7922481FFF9E0E /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A26B30A56C4983930F85A054AAF37F95 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests" */;
+			buildConfigurationList = 9DAF6B278E9F9699640A3BE67FA4C5C0 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests" */;
 			buildPhases = (
-				20AA229476544685D91525123AAB26C6 /* Headers */,
-				01D6B981C3F62C7361314F491AF038D1 /* Sources */,
-				4E5E44DD96BF875CEBC0D1EB9F33A615 /* Frameworks */,
-				79F8AE5178B00AE3B8AF5681D06392F8 /* Resources */,
+				F1D61C63E248A70D33555D1D5786AA33 /* Headers */,
+				87923C146D9E4D59F4210BB8168C8ABB /* Sources */,
+				F817382D9CBF1220CA6F4B93AFF141E7 /* Frameworks */,
+				B18CAF021E5345EAE07B732CA17A3EB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CC9DD394DFF2BB582C429B88C382A20 /* PBXTargetDependency */,
-				B15C30F0A244639F5245FCCF761149EA /* PBXTargetDependency */,
-				B7B295401DA9785F7838C3C6961A8822 /* PBXTargetDependency */,
-				FDBCB2C56C98C8FADA92051FFC41CB03 /* PBXTargetDependency */,
-				89CD61AAD429FF802DF91986549906DB /* PBXTargetDependency */,
-				92B4E607303262C7B9B1B19648C11914 /* PBXTargetDependency */,
-				38467D2C475D295F1F88CF39B9B35085 /* PBXTargetDependency */,
+				98E51BB438420904F694B6659F244B07 /* PBXTargetDependency */,
+				F921385E6998B8A5C8A61B0484E4B907 /* PBXTargetDependency */,
+				19C1BB83B6F2FACC486838A2DBE420BC /* PBXTargetDependency */,
+				12FFF06244527D9A298221FA76F5ED68 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests";
 			productName = "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests";
@@ -1108,24 +570,6 @@
 			productReference = 1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7E875D11AD986EDEB42F0F0170213445 /* Lockbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A2DA4CF70AB0C8DF8E2D5ECEED133B4D /* Build configuration list for PBXNativeTarget "Lockbox" */;
-			buildPhases = (
-				CDBD5DF764B00D90BCD2C3FF7CF10182 /* Headers */,
-				1C934982C5A0E6DB101060EE1000B9F3 /* Sources */,
-				2F9C9655CCFFB795B2A1C9920C2B9276 /* Frameworks */,
-				73D5007B5BCD668F97E5190B3C18A972 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Lockbox;
-			productName = Lockbox;
-			productReference = AF5DD94E0C9594A6E2D1D50BF7D33507 /* Lockbox.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		82A1A87DBA83DB7938017F80A8BC94C3 /* Pods-iOSPayworksMobileSDKTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 023082FD0E17365D3C4436CC3C84A3D7 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDKTests" */;
@@ -1147,45 +591,24 @@
 		};
 		94F8EADF445850B3F11C976EAD8C30C5 /* Pods-iOSPayworksMobileSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89C127644A0897CE8636EE096F7448EF /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK" */;
+			buildConfigurationList = 119737590CF5469B801DAF73DB663521 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK" */;
 			buildPhases = (
-				474A97E65E6F7AC223CA1F87588E7331 /* Headers */,
-				288161375F125C682C15089C560C928C /* Sources */,
-				EA9C197ED3142EA51A2DF919AD70C1D6 /* Frameworks */,
-				CC5B9FA221BD348605CBB7638DDA2891 /* Resources */,
+				0FADC5ADA57F17A474BE6BEF0C5CA35C /* Headers */,
+				A05E27020D82C3A70B1FCE43FCA4A02F /* Sources */,
+				267E1302E5D0E5404855D6D16AF47944 /* Frameworks */,
+				2C619A56C59DAE27EBBA7350FA3A44EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DE1EACF5DFB6955512CDF6E0EDD50DD1 /* PBXTargetDependency */,
-				F75C51E386F369A225721C7E3805F766 /* PBXTargetDependency */,
-				865F0B8F7808EC1378C17451706546C0 /* PBXTargetDependency */,
-				1705D6D08731400FBFB02BBE3336BB1A /* PBXTargetDependency */,
-				3B60B6F3714EF76626D4A16B46AAC4BF /* PBXTargetDependency */,
-				3FBD0D6C4807C0876313C721EFDBE703 /* PBXTargetDependency */,
-				4CDEE373D081D91872E66908859C03FF /* PBXTargetDependency */,
+				2FE68665DEA7FD052DE613CF0446CD2F /* PBXTargetDependency */,
+				D767934644DB566E8EE6D545EC014187 /* PBXTargetDependency */,
+				2CAF373CE74CA7FAC80583CDA74E8922 /* PBXTargetDependency */,
+				74A8B2CB8B7CF145C2282B9D10487172 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOSPayworksMobileSDK";
 			productName = "Pods-iOSPayworksMobileSDK";
 			productReference = 19858EC6F4E52256AAB20A040562DFC6 /* Pods_iOSPayworksMobileSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68DC2F9CF97870353F3227DA050B32EA /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
-			buildPhases = (
-				2266024E313A6BBAA8891AEF16C1EB56 /* Headers */,
-				78B2EA51C2BF323B9B60F51CFD5BEA3C /* Sources */,
-				3A067A1DA16B96ECEB94002E5750544A /* Frameworks */,
-				702554E8B2BFB75B8D8A24898C0ED425 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaLumberjack;
-			productName = CocoaLumberjack;
-			productReference = C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1206,14 +629,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3C5D88326071FDC1594F78DDF0C2D600 /* Products */;
+			productRefGroup = FF5E2B9767C90D1B810AC889039CEF90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
-				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
 				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
-				7E875D11AD986EDEB42F0F0170213445 /* Lockbox */,
 				FF97BA7091D54061DD1A31D8636E69F1 /* payworks */,
 				34491D794E1B2224A2BB06ECEC436AE9 /* payworks.paybutton */,
 				94F8EADF445850B3F11C976EAD8C30C5 /* Pods-iOSPayworksMobileSDK */,
@@ -1225,7 +645,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AAFF4E9A7FD5CC955CC94BDE27FBA95 /* Resources */ = {
+		2C619A56C59DAE27EBBA7350FA3A44EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1239,27 +659,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		702554E8B2BFB75B8D8A24898C0ED425 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73D5007B5BCD668F97E5190B3C18A972 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79F8AE5178B00AE3B8AF5681D06392F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE292B4411627ABE21EB769134C1E8BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1267,7 +666,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC5B9FA221BD348605CBB7638DDA2891 /* Resources */ = {
+		B18CAF021E5345EAE07B732CA17A3EB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1284,73 +683,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01D6B981C3F62C7361314F491AF038D1 /* Sources */ = {
+		87923C146D9E4D59F4210BB8168C8ABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E800DADC74A4071B02B9E03861C6488 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C934982C5A0E6DB101060EE1000B9F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14CF8CD0FAB313731B28699537886F95 /* Lockbox-dummy.m in Sources */,
-				379074F0EEB4C66A5D85D5EF3D108278 /* Lockbox.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		288161375F125C682C15089C560C928C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17F5EE499BD15753D98BFF92D52D8EE7 /* Pods-iOSPayworksMobileSDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6F66130117A5CA2EFE69F1739F512499 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */,
-				8CE480485EFF2F15B7A394C90CFF274A /* AFHTTPSessionManager.m in Sources */,
-				B83B1CA17424975882DA1066536E112B /* AFImageDownloader.m in Sources */,
-				9D3A67B86C6A3A1339783953B3E833B9 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				3EB561D79F76C06AA538872D6302D35D /* AFNetworking-dummy.m in Sources */,
-				2E7446308877A2FA6F48A7E545FFB1B1 /* AFNetworkReachabilityManager.m in Sources */,
-				A6DE5A1B478949FE0444318D47C1A9CC /* AFSecurityPolicy.m in Sources */,
-				BBFB85B525E1E77FCB19C84D911205D8 /* AFURLRequestSerialization.m in Sources */,
-				828919193B61FC103B8846F54EF3131C /* AFURLResponseSerialization.m in Sources */,
-				76536A816A576F08FADD3366A2E40094 /* AFURLSessionManager.m in Sources */,
-				FDA522B328C907FBF9B11C64C1A7C624 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				38B57953D8705FA2092852071CD3A462 /* UIButton+AFNetworking.m in Sources */,
-				232B2E8F32708EF2D85000B997FB69A2 /* UIImageView+AFNetworking.m in Sources */,
-				02937E01710489D6668D0C3700E8EADA /* UIProgressView+AFNetworking.m in Sources */,
-				01BEB06B4E262DCEA7A94F4206311BF9 /* UIRefreshControl+AFNetworking.m in Sources */,
-				951B6669114E3C8D2E4961AFE2BB6647 /* WKWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78B2EA51C2BF323B9B60F51CFD5BEA3C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2BF8C57BCD052810B661ECCF788D6A8 /* CLIColor.m in Sources */,
-				9EBF29F5F5A365DD9715C5275B26B067 /* CocoaLumberjack-dummy.m in Sources */,
-				C0F012A7DA9060D03939EE0E53B6D1DF /* DDAbstractDatabaseLogger.m in Sources */,
-				4112E61CC303758C91B823C8E2060991 /* DDASLLogCapture.m in Sources */,
-				8D402C387B9C3FB45A6DBB0028B79869 /* DDASLLogger.m in Sources */,
-				DE3E14FB3CED790C7222CD7B14B77F1B /* DDContextFilterLogFormatter+Deprecated.m in Sources */,
-				BCAF6FA42E6A2182E63BA165934FDAA3 /* DDContextFilterLogFormatter.m in Sources */,
-				6228DBA43ABC638AD046567C9702D0B2 /* DDDispatchQueueLogFormatter.m in Sources */,
-				6A4DE582B2BDBF81CBD6224B06457531 /* DDFileLogger+Buffering.m in Sources */,
-				1E4236F1870A64A39E721DA07981DE8E /* DDFileLogger.m in Sources */,
-				C717D331149C4D2D4D705604531860A6 /* DDLog.m in Sources */,
-				9EE11CA6853349A2133DE7C864ED1E2B /* DDLoggerNames.m in Sources */,
-				567DC4267D7CF8B72BEBA60F89B77172 /* DDMultiFormatter.m in Sources */,
-				6BB267FD35A88D632DD1D9730E6F9EF9 /* DDOSLogger.m in Sources */,
-				EF32D32A5E7B0143142C3775727996A9 /* DDTTYLogger.m in Sources */,
+				FFD5ADA65CC26DCCD3289AE406BEBF19 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1363,6 +700,14 @@
 				2492F5A1B9A25DE9BC81300178563EB7 /* SwiftSignatureView-dummy.m in Sources */,
 				CE58C0E36EF59E6160C27D61B8BF49EF /* SwiftSignatureView.swift in Sources */,
 				53369DA7CA835ACB6BDD3FB716BACF72 /* SwiftSignatureViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05E27020D82C3A70B1FCE43FCA4A02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4BE38D6DEE94BB4F5BC1D203657DF0 /* Pods-iOSPayworksMobileSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1386,95 +731,47 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16CA3462AF970E2DC56C8D37C266AF0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = CA1343C03CA59282A6187B1D4C5FE17D /* PBXContainerItemProxy */;
-		};
-		1705D6D08731400FBFB02BBE3336BB1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Lockbox;
-			target = 7E875D11AD986EDEB42F0F0170213445 /* Lockbox */;
-			targetProxy = B860DB208E7F4CC3DB3BABAC074B380F /* PBXContainerItemProxy */;
-		};
-		2CC9DD394DFF2BB582C429B88C382A20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 8624AB11799A13EB0126AF6A42BA2901 /* PBXContainerItemProxy */;
-		};
-		38467D2C475D295F1F88CF39B9B35085 /* PBXTargetDependency */ = {
+		12FFF06244527D9A298221FA76F5ED68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = payworks.paybutton;
 			target = 34491D794E1B2224A2BB06ECEC436AE9 /* payworks.paybutton */;
-			targetProxy = 37FE9DE4EC3CC252CF751362BB254FDE /* PBXContainerItemProxy */;
+			targetProxy = C39D04A0C33A9EA91C030141532D5661 /* PBXContainerItemProxy */;
 		};
-		3B60B6F3714EF76626D4A16B46AAC4BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSignatureView;
-			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
-			targetProxy = F20FA736D3D1B7007051C8531F47074D /* PBXContainerItemProxy */;
-		};
-		3FBD0D6C4807C0876313C721EFDBE703 /* PBXTargetDependency */ = {
+		19C1BB83B6F2FACC486838A2DBE420BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = payworks;
 			target = FF97BA7091D54061DD1A31D8636E69F1 /* payworks */;
-			targetProxy = FB8F01418AF34DF204B4634073FBC4AA /* PBXContainerItemProxy */;
+			targetProxy = F5A737E542D7A0141B0F5290F36A3C39 /* PBXContainerItemProxy */;
 		};
-		4CDEE373D081D91872E66908859C03FF /* PBXTargetDependency */ = {
+		2CAF373CE74CA7FAC80583CDA74E8922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = payworks;
+			target = FF97BA7091D54061DD1A31D8636E69F1 /* payworks */;
+			targetProxy = D06DA2B8173F6229A18B15E60BCF2CEE /* PBXContainerItemProxy */;
+		};
+		2FE68665DEA7FD052DE613CF0446CD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = AEC9C4478EC0E5AED0AF2AB2F671297D /* PBXContainerItemProxy */;
+		};
+		74A8B2CB8B7CF145C2282B9D10487172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = payworks.paybutton;
 			target = 34491D794E1B2224A2BB06ECEC436AE9 /* payworks.paybutton */;
-			targetProxy = 3A418A0DE19B01AA275E22B6A10F2185 /* PBXContainerItemProxy */;
+			targetProxy = BA08015FCB7581BCDA1EDE1E709EFDDF /* PBXContainerItemProxy */;
 		};
-		513073FA39DAB9C88BEBEB9D873549DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 9B34796F7EB21E861B1AEE371A0C670F /* PBXContainerItemProxy */;
-		};
-		648764C9087941B560D8F7B21B5F4C85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Lockbox;
-			target = 7E875D11AD986EDEB42F0F0170213445 /* Lockbox */;
-			targetProxy = 17CFCDDC37E6E5535A0C15740FC27266 /* PBXContainerItemProxy */;
-		};
-		865F0B8F7808EC1378C17451706546C0 /* PBXTargetDependency */ = {
+		98E51BB438420904F694B6659F244B07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainAccess;
 			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
-			targetProxy = A622FA54B6E8C067503A55758AF7558D /* PBXContainerItemProxy */;
+			targetProxy = 94290C6746E0A9A82A299349C3ADA2E8 /* PBXContainerItemProxy */;
 		};
-		89CD61AAD429FF802DF91986549906DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSignatureView;
-			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
-			targetProxy = 0B95F449A3C85E9AA09FC41C80CABC56 /* PBXContainerItemProxy */;
-		};
-		92B4E607303262C7B9B1B19648C11914 /* PBXTargetDependency */ = {
+		C051186DD30B3A294C66530AAE15AEEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = payworks;
 			target = FF97BA7091D54061DD1A31D8636E69F1 /* payworks */;
-			targetProxy = 1A5419D852800920D069BBF67DF0AC14 /* PBXContainerItemProxy */;
-		};
-		B15C30F0A244639F5245FCCF761149EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = BF17A5BFAD24CC83BDE15B09AE2C81C1 /* PBXContainerItemProxy */;
-		};
-		B7B295401DA9785F7838C3C6961A8822 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeychainAccess;
-			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
-			targetProxy = DB48D926466D12CCFF37A2949B11E173 /* PBXContainerItemProxy */;
-		};
-		C2240C557771177B47531A6AA063628D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = payworks;
-			target = FF97BA7091D54061DD1A31D8636E69F1 /* payworks */;
-			targetProxy = 4FC982C23F001C4CC4077F288BAB1691 /* PBXContainerItemProxy */;
+			targetProxy = 353B95E66F46BD1A6138CA8ABA8330CF /* PBXContainerItemProxy */;
 		};
 		D5D48EBD00412E6FE0E113711EFB6590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1482,72 +779,28 @@
 			target = 94F8EADF445850B3F11C976EAD8C30C5 /* Pods-iOSPayworksMobileSDK */;
 			targetProxy = EC39B93C078B27202E1A94E7C5776021 /* PBXContainerItemProxy */;
 		};
-		D5E5EA6CE783DEB81684113BDEB734AC /* PBXTargetDependency */ = {
+		D767934644DB566E8EE6D545EC014187 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSignatureView;
 			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
-			targetProxy = 487FF045F14C7AF3DD5E53B7D2EDC7E1 /* PBXContainerItemProxy */;
+			targetProxy = 30FD5B6857022BCFF965184187997CE1 /* PBXContainerItemProxy */;
 		};
-		DE1EACF5DFB6955512CDF6E0EDD50DD1 /* PBXTargetDependency */ = {
+		DF3CFDDA2E5B83777B3DC16C86209AD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = DFAA6A296493FE6E39C9905F3831D80C /* PBXContainerItemProxy */;
+			name = SwiftSignatureView;
+			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
+			targetProxy = 626E3D2ABE3BD8261886B7A585A46FB2 /* PBXContainerItemProxy */;
 		};
-		F75C51E386F369A225721C7E3805F766 /* PBXTargetDependency */ = {
+		F921385E6998B8A5C8A61B0484E4B907 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = B985966685BB6008EF8252567D6F615B /* PBXContainerItemProxy */;
-		};
-		FDBCB2C56C98C8FADA92051FFC41CB03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Lockbox;
-			target = 7E875D11AD986EDEB42F0F0170213445 /* Lockbox */;
-			targetProxy = 1F1706A886C00C4AB184E1416858C982 /* PBXContainerItemProxy */;
+			name = SwiftSignatureView;
+			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
+			targetProxy = CD4CE0E9908C4705A6272454DC82E9FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01C6AA5FAB4749FDF1A0D1400E5CB781 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5378C0881F5E16C299698D740C2108D6 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0F1DB292F6B63756E38289AF88632FF5 /* Release */ = {
+		048B87EFE6F854F8499283751575EBB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3DD9F9F31A8A42528F3BC4595438229 /* Pods-iOSPayworksMobileSDK.release.xcconfig */;
 			buildSettings = {
@@ -1564,7 +817,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1586,223 +839,7 @@
 			};
 			name = Release;
 		};
-		185A2D2F1BA55D6FE316BB2C3ADEDD7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D4810520859A692039E5210347E0E98 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		18B8116168DA30144FE7C3A2AC732AA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD40D9E5C7AA944DF2F561EF47A814E /* CocoaLumberjack.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_MODULE_NAME = CocoaLumberjack;
-				PRODUCT_NAME = CocoaLumberjack;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		20A5A8F362382542F5DCB28788A32308 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234A85BF1F6C088A1A33CF26821A71D9 /* SwiftSignatureView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSignatureView;
-				PRODUCT_NAME = SwiftSignatureView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2A3A6959D354C4635C9F79F293685F65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F44DB3E9A0BEC8EECBEDF123CD8F1EE /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2A4EFE61E1456BF3607D7FD32DED2FF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA469717DA337D02BC2FA5599C5BD45B /* KeychainAccess.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				PRODUCT_MODULE_NAME = KeychainAccess;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2BD7366F7EB83DABD2941B221DC29B41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F44DB3E9A0BEC8EECBEDF123CD8F1EE /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1850,7 +887,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1862,9 +899,9 @@
 			};
 			name = Release;
 		};
-		4941E79B77A0EFBD6368C3CDE82BA1FE /* Debug */ = {
+		16381AF4ACC8DFE6AE7B102CE6D86B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD0CCCAD5777EB30E29F77F446853FC0 /* payworks.xcconfig */;
+			baseConfigurationReference = 7271108496A346455AF242DE79123D14 /* payworks.paybutton.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1879,7 +916,317 @@
 			};
 			name = Debug;
 		};
-		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+		20A5A8F362382542F5DCB28788A32308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19985C20685F983CE0B5A83B5E634458 /* SwiftSignatureView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignatureView;
+				PRODUCT_NAME = SwiftSignatureView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		22B4802B7B7DCA4A63AD50A3E896FF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349E17B33537B5CAEFBB4D05C8C6E50E /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A4EFE61E1456BF3607D7FD32DED2FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21713457C8148E76C1E876671448E26 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FD696D20356CD81D2968A1667748758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19985C20685F983CE0B5A83B5E634458 /* SwiftSignatureView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignatureView;
+				PRODUCT_NAME = SwiftSignatureView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76CB9AA1B5FAA7A5110E75AD8E05FE6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BE41C4F541DABBCCA35F76562E3B01 /* payworks.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797FAA6A086D34EF3383F0B6B045F2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BE41C4F541DABBCCA35F76562E3B01 /* payworks.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85D8CCB89B3DA3E1DAD84D0CF5F0E45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5378C0881F5E16C299698D740C2108D6 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		968A6FBFD2E630C1711B5DED51ED42C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21713457C8148E76C1E876671448E26 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFB2C26905D0D4BABA77BB375B2A050B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AAF12AD193D3F886253C0DBDC99683 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBB8F5D8D36661E7821F8910A3C668AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7271108496A346455AF242DE79123D14 /* payworks.paybutton.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1930,7 +1277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1943,10 +1290,12 @@
 			};
 			name = Debug;
 		};
-		6D1DE26ACA72C45DE1850430E5E1CEC5 /* Release */ = {
+		F14101D2E56195357855F2D7610EB6E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD40D9E5C7AA944DF2F561EF47A814E /* CocoaLumberjack.xcconfig */;
+			baseConfigurationReference = 5D4810520859A692039E5210347E0E98 /* Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1956,22 +1305,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
-				PRODUCT_MODULE_NAME = CocoaLumberjack;
-				PRODUCT_NAME = CocoaLumberjack;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests/Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1979,43 +1329,7 @@
 			};
 			name = Release;
 		};
-		6FD696D20356CD81D2968A1667748758 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234A85BF1F6C088A1A33CF26821A71D9 /* SwiftSignatureView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSignatureView;
-				PRODUCT_NAME = SwiftSignatureView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D460CC87F20CCEE252F5546B6B65E3D /* Debug */ = {
+		FAB7A67E1D651E5316D8F04E71E7279A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48A2EE4ED34482699F7AA85D7DFA4747 /* Pods-iOSPayworksMobileSDK.debug.xcconfig */;
 			buildSettings = {
@@ -2032,7 +1346,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2053,250 +1367,32 @@
 			};
 			name = Debug;
 		};
-		86087682BD0804F47FCE492E7C3C6AA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2C1422C41F70D77BE1BA26FD2E643E0 /* payworks.paybutton.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		968A6FBFD2E630C1711B5DED51ED42C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA469717DA337D02BC2FA5599C5BD45B /* KeychainAccess.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				PRODUCT_MODULE_NAME = KeychainAccess;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9806299C6B24454553C6D00B35BAE039 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14691512EF498501C3496DEF671D4879 /* Lockbox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lockbox/Lockbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Lockbox/Lockbox.modulemap";
-				PRODUCT_MODULE_NAME = Lockbox;
-				PRODUCT_NAME = Lockbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FE1760BFAA9AF9146BD8D58F8E9FBB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 349E17B33537B5CAEFBB4D05C8C6E50E /* Pods-iOSPayworksMobileSDKTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C1C634D23849E5E75CD99CF5FDEB83BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2C1422C41F70D77BE1BA26FD2E643E0 /* payworks.paybutton.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C80271411B1B4158684ADB0C2F67E2CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25AAF12AD193D3F886253C0DBDC99683 /* Pods-iOSPayworksMobileSDKTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSPayworksMobileSDKTests/Pods-iOSPayworksMobileSDKTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CB38612C9AFA3FE89BDA5EBECDAEF6AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14691512EF498501C3496DEF671D4879 /* Lockbox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lockbox/Lockbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Lockbox/Lockbox.modulemap";
-				PRODUCT_MODULE_NAME = Lockbox;
-				PRODUCT_NAME = Lockbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB31B1DBEC1D25B36ABF7483CEF3021B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD0CCCAD5777EB30E29F77F446853FC0 /* payworks.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		023082FD0E17365D3C4436CC3C84A3D7 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C80271411B1B4158684ADB0C2F67E2CD /* Debug */,
-				9FE1760BFAA9AF9146BD8D58F8E9FBB8 /* Release */,
+				AFB2C26905D0D4BABA77BB375B2A050B /* Debug */,
+				22B4802B7B7DCA4A63AD50A3E896FF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119737590CF5469B801DAF73DB663521 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB7A67E1D651E5316D8F04E71E7279A /* Debug */,
+				048B87EFE6F854F8499283751575EBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A11A125B0348D7DB4BDE46DBC9E360 /* Build configuration list for PBXAggregateTarget "payworks.paybutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16381AF4ACC8DFE6AE7B102CE6D86B73 /* Debug */,
+				EBB8F5D8D36661E7821F8910A3C668AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2304,8 +1400,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
-				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2319,15 +1415,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68DC2F9CF97870353F3227DA050B32EA /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18B8116168DA30144FE7C3A2AC732AA7 /* Debug */,
-				6D1DE26ACA72C45DE1850430E5E1CEC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		69733E04D020431DFA642C26E059F3AF /* Build configuration list for PBXNativeTarget "SwiftSignatureView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2337,56 +1424,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		793DC02A2512B4BD25F30F0AF8365082 /* Build configuration list for PBXAggregateTarget "payworks.paybutton" */ = {
+		9DAF6B278E9F9699640A3BE67FA4C5C0 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C634D23849E5E75CD99CF5FDEB83BB /* Debug */,
-				86087682BD0804F47FCE492E7C3C6AA9 /* Release */,
+				85D8CCB89B3DA3E1DAD84D0CF5F0E45C /* Debug */,
+				F14101D2E56195357855F2D7610EB6E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80F441D8DBD479FA4C0DCBDF49A1C994 /* Build configuration list for PBXAggregateTarget "payworks" */ = {
+		E9E8F979827D6D0B63121420F97B7F35 /* Build configuration list for PBXAggregateTarget "payworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4941E79B77A0EFBD6368C3CDE82BA1FE /* Debug */,
-				EB31B1DBEC1D25B36ABF7483CEF3021B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		89C127644A0897CE8636EE096F7448EF /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D460CC87F20CCEE252F5546B6B65E3D /* Debug */,
-				0F1DB292F6B63756E38289AF88632FF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A26B30A56C4983930F85A054AAF37F95 /* Build configuration list for PBXNativeTarget "Pods-iOSPayworksMobileSDK-iOSPayworksMobileSDKUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01C6AA5FAB4749FDF1A0D1400E5CB781 /* Debug */,
-				185A2D2F1BA55D6FE316BB2C3ADEDD7D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A2DA4CF70AB0C8DF8E2D5ECEED133B4D /* Build configuration list for PBXNativeTarget "Lockbox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB38612C9AFA3FE89BDA5EBECDAEF6AE /* Debug */,
-				9806299C6B24454553C6D00B35BAE039 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4A4B40CB38ADC88749D1E1C8A945364 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A3A6959D354C4635C9F79F293685F65 /* Debug */,
-				2BD7366F7EB83DABD2941B221DC29B41 /* Release */,
+				797FAA6A086D34EF3383F0B6B045F2F9 /* Debug */,
+				76CB9AA1B5FAA7A5110E75AD8E05FE6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

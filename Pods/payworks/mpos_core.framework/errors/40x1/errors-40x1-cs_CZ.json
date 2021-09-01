@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Transakci již nelze přerušit"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Transakce zamítnutá"
     ],
@@ -78,6 +81,9 @@
       "Transakce přerušena"
     ],
     "TransactionError": [
+      "Chyba transakce"
+    ],
+    "TransactionVoidInconclusive": [
       "Chyba transakce"
     ],
     "TransactionActionError": [

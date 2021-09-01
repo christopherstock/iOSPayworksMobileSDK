@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Transaktionen kan inte längre avbrytas"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Transaktionen avvisad"
     ],
@@ -78,6 +81,9 @@
       "Transaktionen avbruten"
     ],
     "TransactionError": [
+      "Transaktionsfel"
+    ],
+    "TransactionVoidInconclusive": [
       "Transaktionsfel"
     ],
     "TransactionActionError": [

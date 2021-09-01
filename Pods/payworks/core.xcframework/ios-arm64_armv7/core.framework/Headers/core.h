@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class CoreProviderMode, CoreMemoryCache<K, V>, CoreLevel, CoreKotlinThrowable, CoreLogger, CoreKotlinEnum<E>, CoreAccessoryPrinterAlign, CoreAccessoryPrinterSize, CoreAccessoryPrinterStyle, CoreReceiptLayout, CoreReceiptLayoutLine, CoreReceiptLayoutField, CoreReceiptLineItem, CoreReceiptLineItemKey, CoreReceiptPrinterPrinterState, CoreReceiptPrinter, CoreKotlinUnit, CoreMemoryCacheAction<K, V>, CoreMemoryCacheActionPut<K, V>, CoreMemoryCacheActionRemove<K, V>, NSDate, CoreDate, CoreMerchantCredentials, CoreSdkStartupResponseWrapper, CoreSdkStartupResponse, CoreFeatureScope, CoreKotlinByteArray, CoreKotlinArray<T>, CoreKotlinException, CoreApduCommand, CoreTlvItem, CoreHexString, CoreTlvDataLength, CoreTlvTag, CoreTlvPrimitiveItem, CoreAbstractTlvReference<V>, CoreGenericTlvReference, CoreMastercardUdol, CoreVisaCardAuthenticationRelatedData, CoreMastercardMagstripeApplicationVersionNumberIcc, CoreVisaCardTransactionQualifier, CoreAmericanExpressEnhancedContactlessReaderCapabilities, CoreMastercardThirdPartyData, CoreVisaFormFactorIndicator, CoreEmvCardholderVerificationMethodResultsCvm, CoreEmvCryptogramInformationDataType, CoreEmvPosEntryModeEntryMode, CoreEmvTransactionTypeType, CoreKotlinIntRange, CoreTagClass, CoreTagType, CoreTlvConstructedItem, CoreTlvError, CoreKotlinPair<__covariant A, __covariant B>, CorePaddingStyle, CoreKotlinByteIterator, CoreKotlinx_coroutines_coreCoroutineDispatcher, CoreKotlinx_coroutines_coreCancellationException, CoreKotlinRuntimeException, CoreKotlinIllegalStateException, CoreKotlinIntIterator, CoreKotlinIntProgression, CoreKotlinx_serialization_coreSerializersModule, CoreKotlinx_serialization_coreSerialKind, CoreKotlinNothing, CoreKotlinAbstractCoroutineContextElement, CoreKotlinx_coroutines_coreAtomicDesc, CoreKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, CoreKotlinx_coroutines_coreAtomicOp<__contravariant T>, CoreKotlinx_coroutines_coreOpDescriptor, CoreKotlinx_coroutines_coreLockFreeLinkedListNode, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class CoreKotlinUnit, CoreKotlinByteArray, NSData, CoreProviderMode, CoreMemoryCache<K, V>, CoreLevel, CoreKotlinThrowable, CoreLogger, CoreKotlinEnum<E>, CoreAccessoryPrinterAlign, CoreAccessoryPrinterSize, CoreAccessoryPrinterStyle, CoreReceiptLayout, CoreReceiptLayoutLine, CoreReceiptLayoutField, CoreReceiptLineItem, CoreReceiptLineItemKey, CoreReceiptPrinterPrinterState, CoreReceiptPrinter, CoreMemoryCacheAction<K, V>, CoreMemoryCacheActionGet<K, V>, CoreMemoryCacheActionPut<K, V>, CoreMemoryCacheActionRemove<K, V>, NSDate, CoreDate, CoreMerchantCredentials, CoreSdkStartupResponseWrapper, CoreSdkStartupResponse, CoreFeatureScope, CoreKotlinArray<T>, CoreKotlinException, CoreApduCommand, CoreTlvItem, CoreHexString, CoreTlvDataLength, CoreTlvTag, CoreTlvPrimitiveItem, CoreAbstractTlvReference<V>, CoreGenericTlvReference, CoreMastercardUdol, CoreVisaCardAuthenticationRelatedData, CoreMastercardMagstripeApplicationVersionNumberIcc, CoreVisaCardTransactionQualifier, CoreAmericanExpressEnhancedContactlessReaderCapabilities, CoreMastercardThirdPartyData, CoreVisaFormFactorIndicator, CoreEmvCardholderVerificationMethodResultsCvm, CoreEmvCryptogramInformationDataType, CoreEmvPosEntryModeEntryMode, CoreEmvTransactionTypeType, CoreKotlinIntRange, CoreTagClass, CoreTagType, CoreTlvConstructedItem, CoreTlvError, CoreKotlinPair<__covariant A, __covariant B>, CorePaddingStyle, CoreKotlinByteIterator, CoreKotlinx_coroutines_coreCoroutineDispatcher, CoreKotlinRuntimeException, CoreKotlinIllegalStateException, CoreKotlinx_coroutines_coreCancellationException, CoreKotlinIntIterator, CoreKotlinIntProgression, CoreKotlinx_serialization_coreSerializersModule, CoreKotlinx_serialization_coreSerialKind, CoreKotlinNothing, CoreKotlinAbstractCoroutineContextElement, CoreKotlinx_coroutines_coreAtomicDesc, CoreKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, CoreKotlinx_coroutines_coreAtomicOp<__contravariant T>, CoreKotlinx_coroutines_coreOpDescriptor, CoreKotlinx_coroutines_coreLockFreeLinkedListNode, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, CoreKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol CoreFeatureToggleManager, CoreKotlinx_coroutines_coreBroadcastChannel, CoreFeatureToggle, CoreCoreComponent, CoreKotlinComparable, CoreSimpleReceipt, CoreAccessoryPrinter, CoreKotlinx_coroutines_coreReceiveChannel, CoreFeature, CoreKotlinx_coroutines_coreCoroutineScope, CoreGateway, CoreBootstrap, CoreBackendApi, CoreAccessoryCommunicationPluginsCommunicationListener, CoreTlvReference, CoreTlvMapper, CoreKotlinIterator, CoreKotlinIterable, CoreKotlinx_serialization_coreEncoder, CoreKotlinx_serialization_coreSerialDescriptor, CoreKotlinx_serialization_coreSerializationStrategy, CoreKotlinx_serialization_coreDecoder, CoreKotlinx_serialization_coreDeserializationStrategy, CoreKotlinx_serialization_coreKSerializer, CoreKotlinx_coroutines_coreSelectClause2, CoreKotlinx_coroutines_coreSendChannel, CoreKotlinx_coroutines_coreChannelIterator, CoreKotlinx_coroutines_coreSelectClause1, CoreKotlinCoroutineContext, CoreKotlinClosedRange, CoreKotlinx_serialization_coreCompositeEncoder, CoreKotlinAnnotation, CoreKotlinx_serialization_coreCompositeDecoder, CoreKotlinCoroutineContextKey, CoreKotlinCoroutineContextElement, CoreKotlinContinuation, CoreKotlinContinuationInterceptor, CoreKotlinx_coroutines_coreRunnable, CoreKotlinx_coroutines_coreSelectInstance, CoreKotlinSuspendFunction1, CoreKotlinx_serialization_coreSerializersModuleCollector, CoreKotlinKClass, CoreKotlinx_coroutines_coreDisposableHandle, CoreKotlinFunction, CoreKotlinKDeclarationContainer, CoreKotlinKAnnotatedElement, CoreKotlinKClassifier;
+@protocol CoreKotlinx_coroutines_coreCoroutineScope, CoreFeatureToggleManager, CoreKotlinx_coroutines_coreBroadcastChannel, CoreFeatureToggle, CoreCoreComponent, CoreKotlinComparable, CoreSimpleReceipt, CoreAccessoryPrinter, CoreKotlinx_coroutines_coreReceiveChannel, CoreFeature, CoreGateway, CoreBootstrap, CoreKotlinx_coroutines_coreFlow, CoreMviBoundary, CoreKotlinx_coroutines_coreStateFlow, CoreKotlinx_coroutines_coreCompletableDeferred, CoreBackendApi, CoreAccessoryCommunicationPluginsCommunicationListener, CoreTlvReference, CoreTlvMapper, CoreKotlinIterator, CoreKotlinIterable, CoreKotlinx_serialization_coreEncoder, CoreKotlinx_serialization_coreSerialDescriptor, CoreKotlinx_serialization_coreSerializationStrategy, CoreKotlinx_serialization_coreDecoder, CoreKotlinx_serialization_coreDeserializationStrategy, CoreKotlinx_serialization_coreKSerializer, CoreKotlinCoroutineContext, CoreKotlinx_coroutines_coreSelectClause2, CoreKotlinx_coroutines_coreSendChannel, CoreKotlinx_coroutines_coreChannelIterator, CoreKotlinx_coroutines_coreSelectClause1, CoreKotlinx_coroutines_coreFlowCollector, CoreKotlinx_coroutines_coreSharedFlow, CoreKotlinx_coroutines_coreChildHandle, CoreKotlinx_coroutines_coreChildJob, CoreKotlinx_coroutines_coreDisposableHandle, CoreKotlinx_coroutines_coreJob, CoreKotlinSequence, CoreKotlinx_coroutines_coreSelectClause0, CoreKotlinCoroutineContextKey, CoreKotlinCoroutineContextElement, CoreKotlinx_coroutines_coreDeferred, CoreKotlinClosedRange, CoreKotlinx_serialization_coreCompositeEncoder, CoreKotlinAnnotation, CoreKotlinx_serialization_coreCompositeDecoder, CoreKotlinContinuation, CoreKotlinContinuationInterceptor, CoreKotlinx_coroutines_coreRunnable, CoreKotlinx_coroutines_coreSelectInstance, CoreKotlinSuspendFunction1, CoreKotlinx_coroutines_coreParentJob, CoreKotlinSuspendFunction0, CoreKotlinx_serialization_coreSerializersModuleCollector, CoreKotlinKClass, CoreKotlinFunction, CoreKotlinKDeclarationContainer, CoreKotlinKAnnotatedElement, CoreKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -139,6 +139,27 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MemorySetCache")))
+@interface CoreMemorySetCache<V> : CoreBase
+- (instancetype)initWithTag:(NSString *)tag scope:(id<CoreKotlinx_coroutines_coreCoroutineScope>)scope __attribute__((swift_name("init(tag:scope:)"))) __attribute__((objc_designated_initializer));
+- (void)addValue:(V _Nullable)value __attribute__((swift_name("add(value:)"))) __attribute__((deprecated("Use addSafe instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)addSafeValue:(V _Nullable)value completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("addSafe(value:completionHandler:)")));
+- (NSSet<id> *)get __attribute__((swift_name("get()")));
+- (void)removeValue:(V _Nullable)value __attribute__((swift_name("remove(value:)"))) __attribute__((deprecated("Use removeSafe instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeSafeValue:(V _Nullable)value completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("removeSafe(value:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CoreBuildType")))
 @interface CoreCoreBuildType : CoreBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -155,6 +176,16 @@ __attribute__((swift_name("CoroutinesInitializer")))
 + (instancetype)coroutinesInitializer __attribute__((swift_name("init()")));
 - (void)initializeMainThreadCoroutines __attribute__((swift_name("initializeMainThreadCoroutines()")));
 - (void)tearDown __attribute__((swift_name("tearDown()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DataUtils")))
+@interface CoreDataUtils : CoreBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dataUtils __attribute__((swift_name("init()")));
+- (CoreKotlinByteArray *)toByteArrayData:(NSData *)data __attribute__((swift_name("toByteArray(data:)")));
+- (NSData *)toDataArray:(CoreKotlinByteArray *)array __attribute__((swift_name("toData(array:)")));
 @end;
 
 __attribute__((swift_name("CoreComponent")))
@@ -496,7 +527,7 @@ __attribute__((swift_name("BaseFeature")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateStateBlock:(S _Nullable (^)(S _Nullable))block completionHandler:(void (^)(S _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateState(block:completionHandler:)")));
+- (void)updateStateBlock:(id _Nullable (^)(S _Nullable))block completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateState(block:completionHandler:)")));
 @property (readonly) NSString *tag __attribute__((swift_name("tag")));
 @end;
 
@@ -524,6 +555,32 @@ __attribute__((swift_name("BaseGateway")))
 @property (readonly) NSString *tag __attribute__((swift_name("tag")));
 @end;
 
+__attribute__((swift_name("MviBoundary")))
+@protocol CoreMviBoundary
+@required
+- (void)addViewStateCallbackKey:(NSString *)key callback:(void (^)(id _Nullable))callback __attribute__((swift_name("addViewStateCallback(key:callback:)")));
+- (void)removeViewStateCallbackKey:(NSString *)key __attribute__((swift_name("removeViewStateCallback(key:)")));
+- (void)sendEvent:(id _Nullable)event __attribute__((swift_name("send(event:)")));
+- (id<CoreKotlinx_coroutines_coreFlow>)viewStates __attribute__((swift_name("viewStates()")));
+@end;
+
+__attribute__((swift_name("BaseMviBoundary")))
+@interface CoreBaseMviBoundary<E, V, S, A> : CoreBase <CoreMviBoundary>
+- (instancetype)initWithFeature:(id<CoreFeature>)feature mainScope:(id<CoreKotlinx_coroutines_coreCoroutineScope>)mainScope initialState:(V _Nullable)initialState tag:(NSString *)tag __attribute__((swift_name("init(feature:mainScope:initialState:tag:)"))) __attribute__((objc_designated_initializer));
+- (void)addViewStateCallbackKey:(NSString *)key callback:(void (^)(V _Nullable))callback __attribute__((swift_name("addViewStateCallback(key:callback:)")));
+- (A _Nullable)eventToActionEvent:(E _Nullable)event __attribute__((swift_name("eventToAction(event:)")));
+- (void)removeViewStateCallbackKey:(NSString *)key __attribute__((swift_name("removeViewStateCallback(key:)")));
+- (void)sendEvent:(E _Nullable)event __attribute__((swift_name("send(event:)")));
+- (void)start __attribute__((swift_name("start()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)stateToViewStateState:(S _Nullable)state completionHandler:(void (^)(V _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("stateToViewState(state:completionHandler:)")));
+- (id<CoreKotlinx_coroutines_coreStateFlow>)viewStates __attribute__((swift_name("viewStates()")));
+@end;
+
 __attribute__((swift_name("Bootstrap")))
 @protocol CoreBootstrap
 @required
@@ -545,15 +602,53 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MemoryCache")))
 @interface CoreMemoryCache<K, V> : CoreBase
 - (instancetype)initWithTag:(NSString *)tag scope:(id<CoreKotlinx_coroutines_coreCoroutineScope>)scope __attribute__((swift_name("init(tag:scope:)"))) __attribute__((objc_designated_initializer));
-- (V _Nullable)getKey:(K _Nullable)key __attribute__((swift_name("get(key:)")));
-- (V _Nullable)getOrPutKey:(K _Nullable)key block:(V _Nullable (^)(void))block __attribute__((swift_name("getOrPut(key:block:)")));
-- (void)putKey:(K _Nullable)key value:(V _Nullable)value __attribute__((swift_name("put(key:value:)")));
-- (void)removeKey:(K _Nullable)key __attribute__((swift_name("remove(key:)")));
+- (V _Nullable)getKey:(K _Nullable)key __attribute__((swift_name("get(key:)"))) __attribute__((deprecated("Use getSafe instead")));
+- (V _Nullable)getOrPutKey:(K _Nullable)key block:(V _Nullable (^)(void))block __attribute__((swift_name("getOrPut(key:block:)"))) __attribute__((deprecated("Use getOrPutSafe instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getOrPutSafeKey:(K _Nullable)key block:(V _Nullable (^)(void))block completionHandler:(void (^)(V _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOrPutSafe(key:block:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getSafeKey:(K _Nullable)key completionHandler:(void (^)(V _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getSafe(key:completionHandler:)")));
+- (void)putKey:(K _Nullable)key value:(V _Nullable)value __attribute__((swift_name("put(key:value:)"))) __attribute__((deprecated("Use putSafe instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putSafeKey:(K _Nullable)key value:(V _Nullable)value completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("putSafe(key:value:completionHandler:)")));
+- (void)removeKey:(K _Nullable)key __attribute__((swift_name("remove(key:)"))) __attribute__((deprecated("Use removeSafe instead")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeSafeKey:(K _Nullable)key completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("removeSafe(key:completionHandler:)")));
 - (NSDictionary<id, id> *)toMap __attribute__((swift_name("toMap()")));
 @end;
 
 __attribute__((swift_name("MemoryCacheAction")))
 @interface CoreMemoryCacheAction<K, V> : CoreBase
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MemoryCacheActionGet")))
+@interface CoreMemoryCacheActionGet<K, V> : CoreMemoryCacheAction<K, V>
+- (instancetype)initWithKey:(K _Nullable)key value:(id<CoreKotlinx_coroutines_coreCompletableDeferred>)value __attribute__((swift_name("init(key:value:)"))) __attribute__((objc_designated_initializer));
+- (K _Nullable)component1 __attribute__((swift_name("component1()")));
+- (id<CoreKotlinx_coroutines_coreCompletableDeferred>)component2 __attribute__((swift_name("component2()")));
+- (CoreMemoryCacheActionGet<K, V> *)doCopyKey:(K _Nullable)key value:(id<CoreKotlinx_coroutines_coreCompletableDeferred>)value __attribute__((swift_name("doCopy(key:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) K _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id<CoreKotlinx_coroutines_coreCompletableDeferred> value __attribute__((swift_name("value")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -580,6 +675,36 @@ __attribute__((swift_name("MemoryCacheActionRemove")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) K _Nullable key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ObjectCache")))
+@interface CoreObjectCache<V> : CoreBase
+- (instancetype)initWithTag:(NSString *)tag scope:(id<CoreKotlinx_coroutines_coreCoroutineScope>)scope __attribute__((swift_name("init(tag:scope:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getOrPutSafeBlock:(V _Nullable (^)(void))block completionHandler:(void (^)(V _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getOrPutSafe(block:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getSafeWithCompletionHandler:(void (^)(V _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getSafe(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putSafeValue:(V _Nullable)value completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("putSafe(value:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeSafeWithCompletionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("removeSafe(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -764,18 +889,30 @@ __attribute__((swift_name("AccessoryCommunicationPlugins")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)accessoryCommunicationPlugins __attribute__((swift_name("init()")));
-- (id)getListeners __attribute__((swift_name("getListeners()")));
+- (NSArray<id<CoreAccessoryCommunicationPluginsCommunicationListener>> *)getListeners __attribute__((swift_name("getListeners()")));
 - (void)registerListenerCommunicationListener:(id<CoreAccessoryCommunicationPluginsCommunicationListener>)communicationListener __attribute__((swift_name("registerListener(communicationListener:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)registerListenerSafeCommunicationListener:(id<CoreAccessoryCommunicationPluginsCommunicationListener>)communicationListener completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("registerListenerSafe(communicationListener:completionHandler:)")));
 - (void)unregisterListenerCommunicationListener:(id<CoreAccessoryCommunicationPluginsCommunicationListener>)communicationListener __attribute__((swift_name("unregisterListener(communicationListener:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)unregisterListenerSafeCommunicationListener:(id<CoreAccessoryCommunicationPluginsCommunicationListener>)communicationListener completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("unregisterListenerSafe(communicationListener:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("AccessoryCommunicationPluginsCommunicationListener")))
 @protocol CoreAccessoryCommunicationPluginsCommunicationListener
 @required
-- (void)onCommandSentAccessory:(id)accessory data:(CoreKotlinByteArray *)data __attribute__((swift_name("onCommandSent(accessory:data:)")));
+- (void)onCommandSentAccessory:(id)accessory data:(NSData *)data __attribute__((swift_name("onCommandSent(accessory:data:)")));
 - (void)onConnectAccessory:(id)accessory __attribute__((swift_name("onConnect(accessory:)")));
 - (void)onDisconnectedAccessory:(id)accessory __attribute__((swift_name("onDisconnected(accessory:)")));
-- (void)onResponseReceivedAccessory:(id)accessory data:(CoreKotlinByteArray *)data __attribute__((swift_name("onResponseReceived(accessory:data:)")));
+- (void)onResponseReceivedAccessory:(id)accessory data:(NSData *)data __attribute__((swift_name("onResponseReceived(accessory:data:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2162,12 +2299,20 @@ __attribute__((swift_name("KotlinByteArray")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BackgroundScopeKt")))
+@interface CoreBackgroundScopeKt : CoreBase
+@property (class, readonly) id<CoreKotlinx_coroutines_coreCoroutineScope> backgroundScope __attribute__((swift_name("backgroundScope")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DispatchersKt")))
 @interface CoreDispatchersKt : CoreBase
 @property (class, readonly) CoreKotlinx_coroutines_coreCoroutineDispatcher *featureDispatcher __attribute__((swift_name("featureDispatcher")));
 @property (class, readonly) id<CoreKotlinx_coroutines_coreCoroutineScope> featureScope __attribute__((swift_name("featureScope")));
 @property (class, readonly) CoreKotlinx_coroutines_coreCoroutineDispatcher *gatewayDispatcher __attribute__((swift_name("gatewayDispatcher")));
 @property (class, readonly) id<CoreKotlinx_coroutines_coreCoroutineScope> gatewayScope __attribute__((swift_name("gatewayScope")));
+@property (class, readonly) CoreKotlinx_coroutines_coreCoroutineDispatcher *mainDispatcher __attribute__((swift_name("mainDispatcher")));
+@property (class, readonly) id<CoreKotlinx_coroutines_coreCoroutineScope> mainScope __attribute__((swift_name("mainScope")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2214,15 +2359,15 @@ __attribute__((swift_name("GetTimeMillisKt")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FeatureTogglesKt")))
-@interface CoreFeatureTogglesKt : CoreBase
-+ (NSString *)describeFeature:(id<CoreFeatureToggle>)receiver __attribute__((swift_name("describeFeature(_:)")));
+__attribute__((swift_name("ExhaustiveKt")))
+@interface CoreExhaustiveKt : CoreBase
++ (id _Nullable)exhaustive:(id _Nullable)receiver __attribute__((swift_name("exhaustive(_:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FeatureToggleFeatureKt")))
-@interface CoreFeatureToggleFeatureKt : CoreBase
-+ (id _Nullable)exhaustive:(id _Nullable)receiver __attribute__((swift_name("exhaustive(_:)")));
+__attribute__((swift_name("FeatureTogglesKt")))
+@interface CoreFeatureTogglesKt : CoreBase
++ (NSString *)describeFeature:(id<CoreFeatureToggle>)receiver __attribute__((swift_name("describeFeature(_:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2328,6 +2473,48 @@ __attribute__((swift_name("HexStringTransformExtensionsKt")))
 + (CoreHexString * _Nullable)toHexString___:(NSString *)receiver __attribute__((swift_name("toHexString(____:)")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol CoreKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<CoreKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end;
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface CoreKotlinRuntimeException : CoreKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface CoreKotlinIllegalStateException : CoreKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("KotlinCancellationException")))
+@interface CoreKotlinCancellationException : CoreKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface CoreKotlinUnit : CoreBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
 __attribute__((swift_name("Kotlinx_coroutines_coreSendChannel")))
 @protocol CoreKotlinx_coroutines_coreSendChannel
 @required
@@ -2383,46 +2570,86 @@ __attribute__((swift_name("Kotlinx_coroutines_coreReceiveChannel")))
 @property (readonly) id<CoreKotlinx_coroutines_coreSelectClause1> onReceiveOrNull __attribute__((swift_name("onReceiveOrNull"))) __attribute__((deprecated("Deprecated in favor of onReceiveOrClosed and onReceiveOrNull extension")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol CoreKotlinx_coroutines_coreCoroutineScope
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol CoreKotlinx_coroutines_coreFlow
 @required
-@property (readonly) id<CoreKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<CoreKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
 @end;
 
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface CoreKotlinRuntimeException : CoreKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_coroutines_coreSharedFlow")))
+@protocol CoreKotlinx_coroutines_coreSharedFlow <CoreKotlinx_coroutines_coreFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
 @end;
 
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface CoreKotlinIllegalStateException : CoreKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_coroutines_coreStateFlow")))
+@protocol CoreKotlinx_coroutines_coreStateFlow <CoreKotlinx_coroutines_coreSharedFlow>
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end;
 
-__attribute__((swift_name("KotlinCancellationException")))
-@interface CoreKotlinCancellationException : CoreKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CoreKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol CoreKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<CoreKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<CoreKotlinCoroutineContextElement> _Nullable)getKey:(id<CoreKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<CoreKotlinCoroutineContext>)minusKeyKey:(id<CoreKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<CoreKotlinCoroutineContext>)plusContext:(id<CoreKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinUnit")))
-@interface CoreKotlinUnit : CoreBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)unit __attribute__((swift_name("init()")));
-- (NSString *)description __attribute__((swift_name("description()")));
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol CoreKotlinCoroutineContextElement <CoreKotlinCoroutineContext>
+@required
+@property (readonly) id<CoreKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol CoreKotlinx_coroutines_coreJob <CoreKotlinCoroutineContextElement>
+@required
+- (id<CoreKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<CoreKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(CoreKotlinx_coroutines_coreCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (CoreKotlinx_coroutines_coreCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<CoreKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(CoreKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<CoreKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(CoreKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<CoreKotlinx_coroutines_coreJob>)plusOther:(id<CoreKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start_ __attribute__((swift_name("start_()")));
+@property (readonly) id<CoreKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<CoreKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDeferred")))
+@protocol CoreKotlinx_coroutines_coreDeferred <CoreKotlinx_coroutines_coreJob>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitWithCompletionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("await(completionHandler:)")));
+- (id _Nullable)getCompleted __attribute__((swift_name("getCompleted()")));
+- (CoreKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
+@property (readonly) id<CoreKotlinx_coroutines_coreSelectClause1> onAwait __attribute__((swift_name("onAwait")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCompletableDeferred")))
+@protocol CoreKotlinx_coroutines_coreCompletableDeferred <CoreKotlinx_coroutines_coreDeferred>
+@required
+- (BOOL)completeValue:(id _Nullable)value __attribute__((swift_name("complete(value:)")));
+- (BOOL)completeExceptionallyException:(CoreKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2455,7 +2682,7 @@ __attribute__((swift_name("KotlinClosedRange")))
 - (BOOL)containsValue:(id)value __attribute__((swift_name("contains(value:)")));
 - (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
 @property (readonly) id endInclusive __attribute__((swift_name("endInclusive")));
-@property (readonly, getter=start_) id start __attribute__((swift_name("start")));
+@property (readonly, getter=start__) id start __attribute__((swift_name("start")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2468,7 +2695,7 @@ __attribute__((swift_name("KotlinIntRange")))
 - (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) CoreInt *endInclusive __attribute__((swift_name("endInclusive")));
-@property (readonly, getter=start_) CoreInt *start __attribute__((swift_name("start")));
+@property (readonly, getter=start__) CoreInt *start __attribute__((swift_name("start")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2558,21 +2785,6 @@ __attribute__((swift_name("KotlinByteIterator")))
 - (int8_t)nextByte __attribute__((swift_name("nextByte()")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol CoreKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<CoreKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<CoreKotlinCoroutineContextElement> _Nullable)getKey:(id<CoreKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<CoreKotlinCoroutineContext>)minusKeyKey:(id<CoreKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<CoreKotlinCoroutineContext>)plusContext:(id<CoreKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol CoreKotlinCoroutineContextElement <CoreKotlinCoroutineContext>
-@required
-@property (readonly) id<CoreKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
 __attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
 @interface CoreKotlinAbstractCoroutineContextElement : CoreBase <CoreKotlinCoroutineContextElement>
 - (instancetype)initWithKey:(id<CoreKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
@@ -2595,7 +2807,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (void)dispatchYieldContext:(id<CoreKotlinCoroutineContext>)context block:(id<CoreKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
 - (id<CoreKotlinContinuation>)interceptContinuationContinuation:(id<CoreKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
 - (BOOL)isDispatchNeededContext:(id<CoreKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (CoreKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(CoreKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (CoreKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(CoreKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<CoreKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end;
@@ -2631,6 +2843,52 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
 @protocol CoreKotlinx_coroutines_coreSelectClause1
 @required
 - (void)registerSelectClause1Select:(id<CoreKotlinx_coroutines_coreSelectInstance>)select block:(id<CoreKotlinSuspendFunction1>)block __attribute__((swift_name("registerSelectClause1(select:block:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol CoreKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(CoreKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol CoreKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol CoreKotlinx_coroutines_coreChildHandle <CoreKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(CoreKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol CoreKotlinx_coroutines_coreChildJob <CoreKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<CoreKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol CoreKotlinSequence
+@required
+- (id<CoreKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol CoreKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<CoreKotlinx_coroutines_coreSelectInstance>)select block:(id<CoreKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol CoreKotlinCoroutineContextKey
+@required
 @end;
 
 __attribute__((swift_name("KotlinIntIterator")))
@@ -2705,11 +2963,6 @@ __attribute__((swift_name("KotlinNothing")))
 @interface CoreKotlinNothing : CoreBase
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol CoreKotlinCoroutineContextKey
-@required
-@end;
-
 __attribute__((swift_name("KotlinContinuation")))
 @protocol CoreKotlinContinuation
 @required
@@ -2751,6 +3004,23 @@ __attribute__((swift_name("KotlinSuspendFunction1")))
 - (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol CoreKotlinx_coroutines_coreParentJob <CoreKotlinx_coroutines_coreJob>
+@required
+- (CoreKotlinx_coroutines_coreCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol CoreKotlinSuspendFunction0 <CoreKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
 @protocol CoreKotlinx_serialization_coreSerializersModuleCollector
 @required
@@ -2780,12 +3050,6 @@ __attribute__((swift_name("KotlinKClass")))
 - (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
 @property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol CoreKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))

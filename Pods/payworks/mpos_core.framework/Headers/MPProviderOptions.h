@@ -29,13 +29,13 @@
  * Credential identifying the merchant
  * @since 2.0.0
  */
-@property (strong, readonly, nonatomic, nullable) NSString *merchantIdentifier;
+@property (strong, readonly, nonatomic, nonnull) NSString *merchantIdentifier;
 
 /**
  * The secret key for the merchant
  * @since 2.0.0
  */
-@property (strong, readonly, nonatomic, nullable) NSString *merchantSecretKey;
+@property (strong, readonly, nonatomic, nonnull) NSString *merchantSecretKey;
 
 /**
  * The mode the provider is running in.
@@ -58,10 +58,16 @@
 @property (assign, nonatomic, readonly) NSUInteger maxReceiptLineLength;
 
 
-@property (nonatomic, strong, nullable) MPProviderOptionsExtension *extendedOptions;
+@property (nonatomic, strong, nonnull) MPProviderOptionsExtension *extendedOptions;
 
 
-- (void)setExtendedOptions:(nullable MPProviderOptionsExtension *)extension;
+- (void)setExtendedOptions:(nonnull MPProviderOptionsExtension *)extension;
 
+
+- (nonnull instancetype)init NS_UNAVAILABLE;
++ (nonnull instancetype)new NS_UNAVAILABLE;
+- (nonnull instancetype)initWithSupportedActions:(MPTransactionAction)supportedActions extendedOptions:(nonnull MPProviderOptionsExtension *)extendedOptions;
+
++ (nonnull instancetype)mock;
 
 @end

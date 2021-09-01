@@ -229,6 +229,9 @@ typedef NS_ENUM(NSUInteger, MPTransactionStatusDetailsCode) {
     /** The transaction timed out waiting for a card */
     MPTransactionStatusDetailsCodeAbortedPresentCardTimedOut,
 
+    /** The transaction reversal was triggered by the merchant */
+    MPTransactionStatusDetailsCodeAbortedMerchantManuallyReverted,
+
 
 #pragma mark - ERROR
 

@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "A tranzakció már nem szakítható meg"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Tranzakció elutasítva"
     ],
@@ -78,6 +81,9 @@
       "A tranzakció megszakadt"
     ],
     "TransactionError": [
+      "Tranzakciós hiba"
+    ],
+    "TransactionVoidInconclusive": [
       "Tranzakciós hiba"
     ],
     "TransactionActionError": [

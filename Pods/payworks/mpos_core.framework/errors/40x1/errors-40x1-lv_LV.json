@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Darījumu vairs nevar pārtraukt"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Darījums noraidīts"
     ],
@@ -78,6 +81,9 @@
       "Darījums pārtraukts"
     ],
     "TransactionError": [
+      "Darījuma kļūda"
+    ],
+    "TransactionVoidInconclusive": [
       "Darījuma kļūda"
     ],
     "TransactionActionError": [

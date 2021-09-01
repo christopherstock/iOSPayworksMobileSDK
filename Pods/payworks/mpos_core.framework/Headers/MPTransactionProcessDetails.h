@@ -127,7 +127,7 @@ typedef NS_ENUM(NSUInteger, MPTransactionProcessDetailsStateDetails) {
  * Object holding representing the current status of the transaction process.
  * @since 2.2.0
  */
-@interface MPTransactionProcessDetails : NSObject
+@interface MPTransactionProcessDetails : NSObject <NSCopying>
 
 /**
  * Provides a high level status of the current state of the process

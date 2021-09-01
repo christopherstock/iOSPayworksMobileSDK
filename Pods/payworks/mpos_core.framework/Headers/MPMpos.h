@@ -15,6 +15,7 @@
 // LAWS AND INTERNATIONAL TREATIES.  THE RECEIPT OR POSSESSION OF  THIS SOURCE CODE AND/OR RELATED INFORMATION DOES NOT CONVEY OR IMPLY ANY RIGHTS
 // TO REPRODUCE, DISCLOSE OR DISTRIBUTE ITS CONTENTS, OR TO MANUFACTURE, USE, OR SELL ANYTHING THAT IT  MAY DESCRIBE, IN WHOLE OR IN PART.
 
+#import "MPLogger.h"
 #import "MPProvider.h"
 
 /**
@@ -77,7 +78,7 @@ typedef void (^MPMposPasswordResetRequestFailure)(NSString *_Nonnull username, N
  * @param logLevel The log level to use from now on
  * @since 2.0.0
  */
-+ (void)setLogLevel:(NSUInteger)logLevel;
++ (void)setLogLevel:(MPLogLevel)logLevel;
 
 /**
  * Login for whitelabel applications with the given credentials

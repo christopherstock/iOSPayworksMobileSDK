@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Abandon de la transaction impossible"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Transaction refusée"
     ],
@@ -78,6 +81,9 @@
       "Abandon"
     ],
     "TransactionError": [
+      "Erreur de transaction"
+    ],
+    "TransactionVoidInconclusive": [
       "Erreur de transaction"
     ],
     "TransactionActionError": [

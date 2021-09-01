@@ -1,17 +1,54 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mpos_ui
 import Foundation
 import Swift
 import SwiftSignatureView
+import UIKit
 @_exported import mpos_ui
-@objc @_inheritsConvenienceInitializers open class PayworksSwiftSignatureView : SwiftSignatureView.SwiftSignatureView, mpos_ui.MPUSignatureViewProtocol, SwiftSignatureView.SwiftSignatureViewDelegate {
+@_inheritsConvenienceInitializers @objc public class MPLockbox : ObjectiveC.NSObject {
+  @objc public var accessibility: CoreFoundation.CFString
+  @objc public var keyPrefix: Swift.String
+  @objc public subscript(key: Swift.String) -> Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers open class PayworksSwiftSignatureView : SwiftSignatureView.SwiftSignatureView, mpos_ui.MPUSignatureViewProtocol, SwiftSignatureView.SwiftSignatureViewDelegate {
   public func swiftSignatureViewDidDrawGesture(_ view: SwiftSignatureView.ISignatureView, _ tap: UIKit.UIGestureRecognizer)
   public func swiftSignatureViewDidDraw(_ view: SwiftSignatureView.ISignatureView)
   @objc public func erase()
   @objc public func signatureImage() -> UIKit.UIImage?
   @objc public func setSignatureDelegate(_ delegate: mpos_ui.MPPPSSignatureViewDelegate)
-  @objc deinit
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+public typealias MPUSignatureViewControllerContinue = (UIKit.UIImage) -> Swift.Void
+public typealias MPUSignatureViewControllerCancel = () -> Swift.Void
+@objc @_hasMissingDesignatedInitializers public class MPUSignatureViewController : UIKit.UIViewController, mpos_ui.MPPPSSignatureViewDelegate {
+  @objc public var continueBlock: mpos_ui.MPUSignatureViewControllerContinue?
+  @objc public var cancelBlock: mpos_ui.MPUSignatureViewControllerCancel?
+  @objc public init(configuration: mpos_ui.MPUSignatureViewControllerConfiguration)
+  @objc override dynamic public func viewDidLoad()
+  @objc public func signatureAvailable(_ signatureAvailable: Swift.Bool)
+  @objc override dynamic public var preferredScreenEdgesDeferringSystemGestures: UIKit.UIRectEdge {
+    @objc get
+  }
+  @objc override dynamic public var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
 }

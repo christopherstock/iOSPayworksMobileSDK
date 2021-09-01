@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Operacijos nebegalima atšaukti"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Operacija atmesta"
     ],
@@ -78,6 +81,9 @@
       "Operacija nutraukta"
     ],
     "TransactionError": [
+      "Operacijos klaida"
+    ],
+    "TransactionVoidInconclusive": [
       "Operacijos klaida"
     ],
     "TransactionActionError": [

@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Transactie kan niet meer gestopt worden"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Transactie geweigerd"
     ],
@@ -78,6 +81,9 @@
       "Transactie afgebroken"
     ],
     "TransactionError": [
+      "Transactiefout"
+    ],
+    "TransactionVoidInconclusive": [
       "Transactiefout"
     ],
     "TransactionActionError": [

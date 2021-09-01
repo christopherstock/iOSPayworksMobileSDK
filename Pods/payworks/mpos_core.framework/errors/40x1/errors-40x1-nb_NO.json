@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Transaksjonen kan ikke lenger avbrytes"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Transaksjon avvist"
     ],
@@ -78,6 +81,9 @@
       "Transaksjon avbrutt"
     ],
     "TransactionError": [
+      "Transaksjon feil"
+    ],
+    "TransactionVoidInconclusive": [
       "Transaksjon feil"
     ],
     "TransactionActionError": [

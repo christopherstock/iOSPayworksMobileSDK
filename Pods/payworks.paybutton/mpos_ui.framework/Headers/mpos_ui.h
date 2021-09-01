@@ -37,7 +37,10 @@
 #endif
 
 #import "LICENSE.h"
+#import "MPULandscapeAlertController.h"
 #import "MPUMposUi.h"
 #import "MPUMposUiAppearance.h"
 #import "MPUMposUiConfiguration.h"
+#import "MPUSignatureViewControllerConfiguration.h"
 #import "MPUSignatureViewProtocol.h"
+#import "MPUUIHelper.h"

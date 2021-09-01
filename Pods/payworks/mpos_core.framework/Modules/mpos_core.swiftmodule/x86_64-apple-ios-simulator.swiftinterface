@@ -1,34 +1,100 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name mpos_core
 import Foundation
 import Swift
+import UIKit
 import core
 @_exported import mpos_core
+import os
+@inlinable public func logLevel(_ message: Swift.StaticString, level: mpos_core.MPLogLevel, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, arguments: [Swift.CVarArg]) {
+
+    guard level.rawValue <= mpMposLogLevel.rawValue else {
+        return
+    }
+
+    let stringMessage = message.withUTF8Buffer { String(decoding: $0, as: UTF8.self) }
+    let stringFunction = function.withUTF8Buffer { String(decoding: $0, as: UTF8.self) }
+    let stringFile =
+        file.withUTF8Buffer { String(decoding: $0, as: UTF8.self) }
+        .components(separatedBy: "/")
+        .last?
+        .replacingOccurrences(of: ".swift", with: "") ?? ""
+    let codeMessage = String(format: stringMessage, arguments: arguments)
+    let annotatedMessage = String(
+        format: "%@ | %@ | %@.%@ (%d) | %@",
+        MPLogger.shortlogLevel(fromLogMessage: level),
+        MPLogger.queueName(),
+        stringFile,
+        stringFunction,
+        line,
+        codeMessage)
+
+    os_log("%@", log: MPLogger.sharedInstance().logger, type: MPLogger.osLevel(from: level), annotatedMessage)
+}
+@inlinable public func logDebug(_ message: Swift.StaticString, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, _ arguments: Swift.CVarArg...) {
+
+    logLevel(message, level: .debug, file: file, function: function, line: line, arguments: arguments)
+}
+@inlinable public func logInfo(_ message: Swift.StaticString, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, _ arguments: Swift.CVarArg...) {
+    logLevel(message, level: .info, file: file, function: function, line: line, arguments: arguments)
+}
+@inlinable public func logWarn(_ message: Swift.StaticString, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, _ arguments: Swift.CVarArg...) {
+    logLevel(message, level: .warning, file: file, function: function, line: line, arguments: arguments)
+}
+@inlinable public func logVerbose(_ message: Swift.StaticString, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, _ arguments: Swift.CVarArg...) {
+    logLevel(message, level: .verbose, file: file, function: function, line: line, arguments: arguments)
+}
+@inlinable public func logError(_ message: Swift.StaticString, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line, _ arguments: Swift.CVarArg...) {
+    logLevel(message, level: .error, file: file, function: function, line: line, arguments: arguments)
+}
 @objc @_inheritsConvenienceInitializers public class ProviderModeMapper : ObjectiveC.NSObject {
   public static func mapToKotlin(providerMode: mpos_core.MPProviderMode) -> core.ProviderMode
   public static func mapFromKotlin(_ providerMode: core.ProviderMode) -> mpos_core.MPProviderMode
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class VipaTacOnlineTagMapping : mpos_core.PWSTLVBinaryTagMapping {
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class MPAccountHTTPSessionManager : mpos_core.MPHTTPSessionManager {
+  @objc public init(baseURL: Foundation.URL)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class SDKComponent : ObjectiveC.NSObject {
   @objc public static let provideCoreComponent: core.CoreComponent
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class VipaScriptResults1TagMapping : mpos_core.PWSTLVBinaryTagMapping {
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc open class MPHTTPSessionManager : ObjectiveC.NSObject, Foundation.URLSessionDelegate {
+  @objc public func urlSession(_ session: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+  @objc public func addNSRequestTransformer(_ transformer: @escaping (Foundation.NSMutableURLRequest) -> Swift.Void)
+  public func addRequestTransformer(_ transformer: @escaping (inout Foundation.URLRequest) -> Swift.Void)
+  @objc public func POST(path: Swift.String, formParameters: [Swift.String : Swift.String]) throws -> Foundation.URLRequest
+  @objc public func PUT(path: Swift.String, formParameters: [Swift.String : Swift.String]) throws -> Foundation.URLRequest
+  @objc public func POST(path: Swift.String, parameters: [Swift.String : Any]) throws -> Foundation.URLRequest
+  @objc public func POST(path: Swift.String, parameters: [Swift.String : Any], customizeNSRequest: ((Foundation.NSMutableURLRequest) -> Swift.Void)) throws -> Foundation.URLRequest
+  public func POST(path: Swift.String, parameters: [Swift.String : Any], customizeRequest: ((inout Foundation.URLRequest) -> Swift.Void)) throws -> Foundation.URLRequest
+  @objc public func PUT(path: Swift.String, parameters: [Swift.String : Any]) throws -> Foundation.URLRequest
+  @objc public func GET(path: Swift.String) throws -> Foundation.URLRequest
+  @objc public func GET(path: Swift.String, parameters: [Swift.String : Swift.String]) throws -> Foundation.URLRequest
+  @objc public func GET(path: Swift.String, parameters: [Swift.String : Swift.String], customizeNSRequest: (Foundation.NSMutableURLRequest) -> Swift.Void) throws -> Foundation.URLRequest
+  public func GET(path: Swift.String, parameters: [Swift.String : Swift.String], customizeRequest: (inout Foundation.URLRequest) -> Swift.Void) throws -> Foundation.URLRequest
+  @discardableResult
+  @objc public func execute(request: Foundation.URLRequest, success: @escaping ([Swift.String : Any], Foundation.URLResponse?) -> Swift.Void, failure: @escaping (Swift.Error, Foundation.URLResponse?, Foundation.Data?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class CybersourceBackendApi : ObjectiveC.NSObject, core.BackendApi {
   @objc public func syncFeatureToggles(credentials: core.MerchantCredentials, callback: @escaping (core.SdkStartupResponseWrapper) -> Swift.Void, error: @escaping () -> Swift.Void)
@@ -40,24 +106,25 @@ import core
   @objc public static let testFeature2: core.FeatureToggle
   @objc public static let metricsDetailedMessage: core.FeatureToggle
   @objc public static let jwtAuthentication: core.FeatureToggle
+  @objc public static let metricsSender: core.FeatureToggle
   @objc public static let allFeatures: [core.FeatureToggle]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class VipaTacDefaultTagMapping : mpos_core.PWSTLVBinaryTagMapping {
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class PayworksSessionConfiguration : ObjectiveC.NSObject {
-  @objc public static var sessionConfiguration: Foundation.URLSessionConfiguration? {
+  @objc public static var sessionConfiguration: Foundation.URLSessionConfiguration {
     @objc get
     @objc set(newValue)
   }
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LanguageEvaluator : ObjectiveC.NSObject {
   @objc public var prefersMerchantLanguage: Swift.Bool
@@ -69,33 +136,48 @@ import core
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class FeatureTogglesFactory : ObjectiveC.NSObject {
-  @objc public static func create(options: mpos_core.MPProviderOptions) -> core.FeatureToggleManager?
-  @objc deinit
+  @objc public static func create(options: mpos_core.MPProviderOptions, credentialsCompletion: @escaping () -> Swift.Void) -> core.FeatureToggleManager
   @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc open class MPPayworksHTTPSessionManager : mpos_core.MPHTTPSessionManager {
+  @objc public init?(providerOptions: mpos_core.MPProviderOptions, reduceTimeout: Swift.Bool, useJWTAuth: Swift.Bool)
+  @objc public static func manager(providerOptions: mpos_core.MPProviderOptions, useJwtAuth: Swift.Bool) -> mpos_core.MPPayworksHTTPSessionManager?
+  @objc public static func recoverManager(providerOptions: mpos_core.MPProviderOptions, useJwtAuth: Swift.Bool) -> mpos_core.MPPayworksHTTPSessionManager?
+  @discardableResult
+  @objc override public func execute(request: Foundation.URLRequest, success: @escaping ([Swift.String : Any], Foundation.URLResponse?) -> Swift.Void, failure: @escaping (Swift.Error, Foundation.URLResponse?, Foundation.Data?) -> Swift.Void) -> Foundation.URLSessionDataTask
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class VipaTacDenialTagMapping : mpos_core.PWSTLVBinaryTagMapping {
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class VipaKernelIdTagMapping : mpos_core.PWSTLVBinaryTagMapping {
   @objc override dynamic public class func tag() -> Foundation.Data?
   @objc override dynamic public class func shortDescription() -> Swift.String
   @objc override dynamic public class func longDescription() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class ConfigurableMockFeatureToggleManager : ObjectiveC.NSObject, core.FeatureToggleManager {
   @objc public var featureTogglesEnabled: [core.FeatureToggle]
   @objc public func features() -> [Swift.String]
   @objc public func isFeatureEnabled(featureToggle: core.FeatureToggle) -> Swift.Bool
   @objc public func sync()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class MetricsSender : ObjectiveC.NSObject {
+  @objc public static let metricsPath: Swift.String
+  @objc public static let shared: mpos_core.MetricsSender
+  @objc public func send(data: [Swift.String : Any], providerOptions: mpos_core.MPProviderOptions, useJWTAuth: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }

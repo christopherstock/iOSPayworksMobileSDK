@@ -71,6 +71,9 @@
     "TransactionNoLongerAbortable": [
       "Tapahtumaa ei voi enää keskeyttää"
     ],
+    "TransactionDeclinedCaptureExceedsAuthorized": [
+      "Declined - Exceeds authorised Amount"
+    ],
     "TransactionDeclined": [
       "Tapahtuma hylätty"
     ],
@@ -78,6 +81,9 @@
       "Tapahtuma keskeytetty"
     ],
     "TransactionError": [
+      "Tapahtumavirhe"
+    ],
+    "TransactionVoidInconclusive": [
       "Tapahtumavirhe"
     ],
     "TransactionActionError": [

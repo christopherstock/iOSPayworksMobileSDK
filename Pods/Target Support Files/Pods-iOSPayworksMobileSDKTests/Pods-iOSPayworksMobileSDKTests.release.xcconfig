@@ -1,8 +1,8 @@
 EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess" "${PODS_CONFIGURATION_BUILD_DIR}/Lockbox" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView" "${PODS_ROOT}/payworks" "${PODS_ROOT}/payworks.paybutton"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView" "${PODS_ROOT}/payworks" "${PODS_ROOT}/payworks.paybutton"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjack.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess/KeychainAccess.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Lockbox/Lockbox.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView/SwiftSignatureView.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -l"icucore" -framework "AFNetworking" -framework "CocoaLumberjack" -framework "CoreGraphics" -framework "ExternalAccessory" -framework "Foundation" -framework "KeychainAccess" -framework "Lockbox" -framework "MobileCoreServices" -framework "Security" -framework "SwiftSignatureView" -framework "SystemConfiguration" -framework "UIKit" -framework "mpos_core" -framework "mpos_ui"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KeychainAccess/KeychainAccess.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView/SwiftSignatureView.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"icucore" -framework "CoreGraphics" -framework "ExternalAccessory" -framework "Foundation" -framework "KeychainAccess" -framework "MobileCoreServices" -framework "Security" -framework "SwiftSignatureView" -framework "SystemConfiguration" -framework "UIKit" -framework "mpos_core" -framework "mpos_ui"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

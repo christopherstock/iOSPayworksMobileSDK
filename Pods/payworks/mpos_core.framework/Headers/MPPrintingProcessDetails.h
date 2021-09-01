@@ -81,7 +81,7 @@ typedef NS_ENUM(NSUInteger, MPPrintingProcessDetailsStateDetails) {
  * Object providing information for an ongoing printing process.
  * @since 2.4.0
  */
-@interface MPPrintingProcessDetails : NSObject
+@interface MPPrintingProcessDetails : NSObject <NSCopying>
 
 /**
  * Provides a high level status of the current state of the process

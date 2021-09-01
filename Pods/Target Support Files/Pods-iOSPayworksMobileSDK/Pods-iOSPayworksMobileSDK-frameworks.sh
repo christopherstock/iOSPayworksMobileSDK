@@ -161,19 +161,13 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Lockbox/Lockbox.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework"
   install_framework "${PODS_ROOT}/payworks/mpos_core.framework"
   install_framework "${PODS_ROOT}/payworks.paybutton/mpos_ui.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Lockbox/Lockbox.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework"
   install_framework "${PODS_ROOT}/payworks/mpos_core.framework"
   install_framework "${PODS_ROOT}/payworks.paybutton/mpos_ui.framework"

@@ -1,5 +1,5 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/payworks.paybutton
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/Lockbox" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView" "${PODS_ROOT}/payworks" "${PODS_ROOT}/payworks.paybutton"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftSignatureView" "${PODS_ROOT}/payworks" "${PODS_ROOT}/payworks.paybutton"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -framework "CoreGraphics" -framework "ExternalAccessory" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "mpos_core"
 PODS_BUILD_DIR = ${BUILD_DIR}

@@ -1,8 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-iOSPayworksMobileSDK/Pods-iOSPayworksMobileSDK-frameworks.sh
-${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
-${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
 ${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework
-${BUILT_PRODUCTS_DIR}/Lockbox/Lockbox.framework
 ${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework
 ${PODS_ROOT}/payworks/mpos_core.framework
 ${PODS_ROOT}/payworks.paybutton/mpos_ui.framework

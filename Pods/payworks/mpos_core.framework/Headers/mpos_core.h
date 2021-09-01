@@ -20,7 +20,6 @@
 
 @import Foundation;
 
-#import <mpos_core/MPLogFormatter.h>
 #import <mpos_core/MPMockConfiguration.h>
 #import <mpos_core/MPMpos.h>
 #import <mpos_core/MPProvider+Swift_Helper.h>
@@ -121,4 +120,11 @@
 #import <mpos_core/MPSubmitBatchResponseRefundTransaction.h>
 #import <mpos_core/MPSubmitBatchResponseTransaction.h>
 
+#import <mpos_core/JWTService.h>
+#import <mpos_core/MPErrorTransactionHelper.h>
+#import <mpos_core/MPLogLevel.h>
+#import <mpos_core/MPPayworksSecurityPolicy.h>
+#import <mpos_core/MPResponseParser.h>
+#import <mpos_core/NSError+MPAdditions_Internal.h>
+#import <mpos_core/NSMutableURLRequest+Config.h>
 #endif /* mpos_core_h */

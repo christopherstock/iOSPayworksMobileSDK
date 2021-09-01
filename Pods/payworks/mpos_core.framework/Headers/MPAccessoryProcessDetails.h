@@ -72,7 +72,7 @@ typedef NS_ENUM(NSUInteger, MPAccessoryProcessDetailsStateDetails) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MPAccessoryProcessDetails : NSObject
+@interface MPAccessoryProcessDetails : NSObject <NSCopying>
 
 
 /**
